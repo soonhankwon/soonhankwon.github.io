@@ -5,7 +5,7 @@ categories : til
 tags : [git, til] 
 ---
 
-# 221024 TIL
+# 221025 TIL
 
 **Mention** : normal day💻 
 
