@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "DEVFLOW SOON"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "DEVFLOW SOONN"
+name                     : "DEVFLOW SOON"
 description              : "noobBackendDevFlow"
 url                      : "https://soonhankwon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
