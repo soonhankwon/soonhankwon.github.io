@@ -1,11 +1,11 @@
 ---
 layout : single
 title : "221022 About Multipart"
-catagories : til
+categories : til
 tags : [spring, til, http] 
 ---
 
-# 221020 TIL
+# 221022 TIL
 
 **Mention** : 어제 처음으로 프론트엔드 팀원 분들과 조촐한 협업을 시작(MINI PROJECT)🤝
 
