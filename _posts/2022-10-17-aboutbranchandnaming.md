@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "221017 About Git Branch & Naming"
-catagories : til
+categories : til
 tags : [git, til] 
 ---
 
