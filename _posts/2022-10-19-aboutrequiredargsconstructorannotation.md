@@ -1,8 +1,8 @@
 ---
 layout : single
 title : "221019 About @RequiredArgsConstructor Annotation"
-catagories : til
-tags : [orm, til] 
+categories : til
+tags : [spring, til] 
 ---
 
 # 221019 TIL

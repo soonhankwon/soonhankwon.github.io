@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "221018 About ORM Relationship Mapping Basic"
-catagories : til
+categories : til
 tags : [orm, til] 
 ---
 
