@@ -1,12 +1,12 @@
 ---
 layout : single
-title : "221024(Mon) ~ 1030(Sun)"
+title : "221024(Mon) - 1030(Sun)"
 categories : wil
 tags : [wil, sns] 
 ---
-#### Clone Coding and SNS
+### Clone Coding and SNS
 ---
-- 항해 99 미니프로젝트 마무리, 그리고 클론프로젝트 시작
+항해 99 미니프로젝트 마무리, 그리고 클론프로젝트 시작
 
 엊그제 새로운 조가 편성되면서 클론프로젝트가 시작되었다. 우리조의 클론프로젝트는 **Instagram**이다. 기존에 만들었던 게시판과 같은 기본적인 CRUD위에 Social Network Service라는 주 기능을 구현하는게 중요하다고 생각되었다🛠 
 
