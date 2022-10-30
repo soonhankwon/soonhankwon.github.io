@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "221024(Mon) - 1030(Sun)"
+title : "221024-1030 WIL"
 categories : wil
 tags : [wil, sns] 
 ---
