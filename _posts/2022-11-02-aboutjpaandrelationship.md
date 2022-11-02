@@ -18,20 +18,33 @@ tags : [spring, til, jpa]
 
 **좋아요 기능**은 프론트에서 토글로 보통 구현된다. 따라서 아래와 같은 서비스 로직으로 만들어보았다.
 
+```java
+@Service
+@RequiredArgsConstructor
+public class LikeService {
+    private final LikeRepository likeRepository;
+    private final FeedRepository feedRepository;
+    private final AccountRepository accountRepository;
+
+    @Transactional
+    public LikeAddAndUnlikeResDto addAndUnLike(Long feedId, UserDetailsImpl userDetails) throws SQLException {
+        Account account = accountRepository.findById(userDetails.getAccount().getId())
+                .orElseThrow(()-> new RuntimeException("로그인 유저 정보가 없습니다."));
+        Feed feed = feedRepository.findById(feedId)
+                .orElseThrow(()-> new NullPointerException("해당 피드가 없습니다."));
+
+        if(likeRepository.existsByAccountIdAndFeedId(account.getId(),feed.getId())) {
+            likeRepository.deleteByAccountIdAndFeedId(account.getId(),feed.getId());
+            return new LikeAddAndUnlikeResDto ("좋아요 취소", false);
+        } else {
+        Like likes = new Like(account, feed);
+        likeRepository.save(likes);}
+
+        return new LikeAddAndUnlikeResDto ("좋아요", true);
+    }
+```
+
 Like에서 Feed와 Account로 Many to One 연관관계를 맺어주었다.
-
-문제는 연관관계 이해부족으로 인해, Like 삭제를 deletebyId로 그냥 사용했다는 점 이었다.
-
-Like Entity 에서 1번째 데이터만 지워지고 원하는 데이터가 지워지지 않는 현상이 계속됬다🛠
-
-H2console로 테이블을 직접 보면서 테스트하니 이해가 점점 되었다. 
-
-결국, **likeRepository.deleteByAccountIdAndFeedId(account.getId(),feed.getId());**
-
-연관관계의 account_id, feed_id를 통해 삭제하는 것으로 구현
-
-데이터베이스에 대한 공부와 이해가 꼭 필요하다고 느꼈다🔥
-<hr/>
 
 ```java
 @Getter
@@ -60,28 +73,18 @@ public class Like extends Timestamped {
 }
 ```
 
-```java
-@Service
-@RequiredArgsConstructor
-public class LikeService {
-    private final LikeRepository likeRepository;
-    private final FeedRepository feedRepository;
-    private final AccountRepository accountRepository;
+문제는 연관관계 이해부족으로 인해, Like 삭제를 deletebyId로 그냥 사용했다는 점 이었다.
 
-    @Transactional
-    public LikeAddAndUnlikeResDto addAndUnLike(Long feedId, UserDetailsImpl userDetails) throws SQLException {
-        Account account = accountRepository.findById(userDetails.getAccount().getId())
-                .orElseThrow(()-> new RuntimeException("로그인 유저 정보가 없습니다."));
-        Feed feed = feedRepository.findById(feedId)
-                .orElseThrow(()-> new NullPointerException("해당 피드가 없습니다."));
+Like Entity 에서 1번째 데이터만 지워지고 원하는 데이터가 지워지지 않는 현상이 계속됬다🛠
 
-        if(likeRepository.existsByAccountIdAndFeedId(account.getId(),feed.getId())) {
-            likeRepository.deleteByAccountIdAndFeedId(account.getId(),feed.getId());
-            return new LikeAddAndUnlikeResDto ("좋아요 취소", false);
-        } else {
-        Like likes = new Like(account, feed);
-        likeRepository.save(likes);}
+H2console로 테이블을 직접 보면서 테스트하니 이해가 점점 되었다. 
 
-        return new LikeAddAndUnlikeResDto ("좋아요", true);
-    }
-```
+결국, **likeRepository.deleteByAccountIdAndFeedId(account.getId(),feed.getId());**
+
+연관관계의 account_id, feed_id를 통해 삭제하는 것으로 구현
+
+데이터베이스에 대한 공부와 이해가 꼭 필요하다고 느꼈다🔥
+<hr/>
+
+
+
