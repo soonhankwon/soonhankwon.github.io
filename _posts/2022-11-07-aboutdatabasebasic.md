@@ -20,7 +20,7 @@ SQL → Structured Query Language
 
 데이터베이스에서 데이터를 저장하거나 얻기 위해서 사용하는 표준화된 언어
 
-https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/module/98/320.png
+<https://s3-ap-northeast-1.amazonaws.com/opentutorialsfile/module/98/320.png>
 
 Database Client 를 통해서 Database에 접근할 수 있다.
 
@@ -40,4 +40,4 @@ TABLE은 Column(열) 과 Row(행) 으로 구성
 
 📄 Reference
 
-https://opentutorials.org/course/3161/19521
+<https://opentutorials.org/course/3161/19521>
