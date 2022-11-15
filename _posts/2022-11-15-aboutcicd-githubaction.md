@@ -8,7 +8,7 @@ tags : [ci/cd, til, github-action]
 
 **Mention** : "Time waits no one" 몇년전에 본 애니인지 기억도 나지 않는 시달소에서 나온 문구이다. 시간낭비하지 말고 시간있을때 공부하자😴  
 
-**Acheivement & Problem** : CI/CD 에 대한 정확한 개념이 부족해 드림코딩 영상 2편을 통해 개념파악 & 실습을 했다. 프론트 개발자분 답게 유튜브영상의 그림이 정말 깔끔👍🏽
+**Acheivement & Problem** : CI/CD 에 대한 정확한 개념이 부족해 드림코딩 영상 2편을 통해 개념파악 & 실습을 했다. 프론트 개발자분 답게 유튜브영상의 그림이 정말 깔끔하다👍🏽
 
 ## CI/CD?
 
@@ -96,6 +96,6 @@ jobs:
 ```
 📝 Reference
 
- https://www.youtube.com/watch?v=iLqGzEkusIw
+ <https://www.youtube.com/watch?v=iLqGzEkusIw>
 
- https://www.youtube.com/watch?v=0Emq5FypiMM
+ <https://www.youtube.com/watch?v=0Emq5FypiMM>
