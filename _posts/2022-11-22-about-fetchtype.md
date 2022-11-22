@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "221122 FetchType"
+title : "221122 About FetchType"
 categories : til
 tags : [jpa, til, spring] 
 ---
