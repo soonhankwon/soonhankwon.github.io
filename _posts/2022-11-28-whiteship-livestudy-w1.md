@@ -50,7 +50,7 @@ Java Virtual Machine의 줄임말
     - JVM은 OS에 독립적이지만 의존적이다.
 
 - **JVM 구성 요소**
-    
+
     ![https://miro.medium.com/max/700/1*slIuYO633BCuBh_gfYRmGg.png](https://miro.medium.com/max/700/1*slIuYO633BCuBh_gfYRmGg.png)
     
 
