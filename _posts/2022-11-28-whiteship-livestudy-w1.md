@@ -51,7 +51,7 @@ Java Virtual Machine의 줄임말
 
 - **JVM 구성 요소**
 
-    ![https://miro.medium.com/max/700/1*slIuYO633BCuBh_gfYRmGg.png](https://miro.medium.com/max/700/1*slIuYO633BCuBh_gfYRmGg.png)
+    ![https://user-images.githubusercontent.com/37537207/98532273-d48ee100-22c4-11eb-8116-d2b87c0b7057.png](https://user-images.githubusercontent.com/37537207/98532273-d48ee100-22c4-11eb-8116-d2b87c0b7057.png)
     
 
 JVM의 구성은 크게 4가지로 구분됨
@@ -145,7 +145,7 @@ Serial, Parallel, CMS, G1, Z GC
 
 Method Area, Heap Area, Stack Area, PC Register, Native Method Stack
 
-1. **Method Area**
+**Method Area**
 
 static 으로 선언된 변수들을 포함하여 Class 레벨의 모든 데이터가 이곳에 저장됨
 
@@ -163,7 +163,7 @@ Method Area에는 Runtime Constant Pool이라는 별도의 영역이 존재
 
 Heap과 마찬가지로 GC 관리 대상임
 
-2. **Heap Area**
+**Heap Area**
 
 런타임시 동적으로 할당하여 사용하는 영역 
 
@@ -188,7 +188,7 @@ Garbage Collection 생명주기에 의해 지속적으로 메모리가 정리됨
 
 Method Area와 Heap Area는 여러 스레드들 간에 공유되는 메모리
 
-3. **Stack Area**
+**Stack Area**
 
 Thread가 시작될 때 생성되며 Method와 Method 정보 저장
 
@@ -200,7 +200,7 @@ Thread가 시작될 때 생성되며 Method와 Method 정보 저장
 
 각종 형태의 변수나 임시 데이터, 스레드 또는 메소드의 정보를 저장
 
-4. **PC Register**
+**PC Register**
 
 PC는 Program Counter의 줄임말
 
@@ -214,7 +214,7 @@ Thread가 생성될 때마다 하나씩 존재함
 
 어떤 명령을 실행해야 할지에 대한 기록 (현재 수행 중인 부분의 주소를 가짐)
 
-5. **Native Method Stack**
+**Native Method Stack**
 
 바이트 코드가 아닌 실제 실행할 수 있는 기계어로 작성된 프로그램을 실행시키는 영역
 
