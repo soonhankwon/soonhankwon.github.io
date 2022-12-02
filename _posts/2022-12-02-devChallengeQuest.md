@@ -39,10 +39,13 @@ Title : Noob
 Skill : 
 
 - Java Lv.1 / exp : 0
-- Spring Lv.1 / exp : 0
+- Spring Lv.1 / exp : 1
 - Database Lv.1 / exp : 0
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 0
 - Linux Lv.1 / exp : 0
+
+22.12.02 Spring Skill exp +1
+[스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
 
 ##############**LOADING**##############
