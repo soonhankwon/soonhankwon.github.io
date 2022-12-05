@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "SpringBoot(gradle) + MySQL + JPA 연동하기"
+title : "SpringBoot(gradle) + MySQL🐬 + JPA 연동하기"
 categories : til
 tags : [til, spring, mysql] 
 ---
@@ -13,7 +13,7 @@ tags : [til, spring, mysql]
     - ./mysql -uroot -p
     - password 입력
 
-2. WORKBENCH에서 create a new schemas 로 새로운 스키마(DB)를 만들어 준다.
+2. WORKBENCH 🐬에서 create a new schemas 로 새로운 스키마(DB)를 만들어 준다.
 
 3. build.gradle에 아래 dependency를 추가해준다.
     ```java
@@ -38,7 +38,7 @@ tags : [til, spring, mysql]
     spring.jpa.properties.hibernate.format_sql=true
     spring.jpa.properties.hibernate.show_sql = true
     #spring.jpa.hibernate.ddl-auto=create
-    spring.jpa.hibernate.ddl-auto=update //
+    spring.jpa.hibernate.ddl-auto=update
     ```
 
 spring.jpa.hibernate.dll-auto : create, create-drop, update, validate, none 옵션 설정 가능
