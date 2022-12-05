@@ -42,7 +42,7 @@ Skill :
 - Spring Lv.1 / exp : 2
 - Database Lv.1 / exp : 0
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 0
+- Algorithm Lv.1 / exp : 1
 - Linux Lv.1 / exp : 0
 
 22.12.02 Spring Skill exp +1
@@ -53,5 +53,8 @@ Skill :
 
 22.12.05 Spring Skill exp +1
 [스프링 빈(Bean)에 대해서 1-1](https://soonhankwon.github.io/til/aboutspring-bean)
+
+22.12.05 Algorithm Skill exp +1
+[백준 JAVA11 11720번 : 숫자의 합](https://soonhankwon.github.io/algorithm/algorithm11720)
 
 ##############**LOADING**##############
