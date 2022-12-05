@@ -38,7 +38,7 @@ Title : Noob
 
 Skill : 
 
-- Java Lv.1 / exp : 0
+- Java Lv.1 / exp : 1
 - Spring Lv.1 / exp : 1
 - Database Lv.1 / exp : 0
 - Git Lv.1 / exp : 0
@@ -47,5 +47,8 @@ Skill :
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
+
+22.12.05 Java Skill exp +1
+[자바 데이터 타입, 변수 그리고 배열](https://soonhankwon.github.io/til/whiteship-livestudy-w2/)
 
 ##############**LOADING**##############
