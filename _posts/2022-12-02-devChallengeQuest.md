@@ -40,7 +40,7 @@ Skill :
 
 - Java Lv.1 / exp : 1
 - Spring Lv.1 / exp : 2
-- Database Lv.1 / exp : 0
+- Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 1
 - Linux Lv.1 / exp : 0
@@ -56,5 +56,8 @@ Skill :
 
 22.12.05 Algorithm Skill exp +1
 [백준 JAVA11 11720번 : 숫자의 합](https://soonhankwon.github.io/algorithm/algorithm11720)
+
+22.12.05 Database Skill exp +1
+[SpringBoot(gradle) + MySQL + JPA 연동하기](https://soonhankwon.github.io/til/connect-mysql-spring)
 
 ##############**LOADING**##############
