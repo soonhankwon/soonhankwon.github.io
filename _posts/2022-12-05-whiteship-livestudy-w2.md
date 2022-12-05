@@ -228,7 +228,7 @@ class ArrayExample {
 			oneDimensionArrayEx2 = new int[5];
 		
 			//2차원 배열
-			int[][] twoDimensionArrayEx1 = {{1,2},{3,4}}
+			int[][] twoDimensionArrayEx1 = {{1,2},{3,4}};
 			int[][] twoDimensionArrayEx2;
 			twoDimensionArrayEx2 = new int[2][2];
 	}
