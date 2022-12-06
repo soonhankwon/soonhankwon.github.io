@@ -38,7 +38,7 @@ Title : Noob
 
 Skill : 
 
-- Java Lv.1 / exp : 1
+- Java Lv.1 / exp : 2
 - Spring Lv.1 / exp : 2
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
@@ -60,4 +60,8 @@ Skill :
 22.12.05 Database Skill exp +1
 [SpringBoot(gradle) + MySQL + JPA 연동하기](https://soonhankwon.github.io/til/connect-mysql-spring)
 
+22.12.06 Java Skill exp +1
+[JAVA, MAP](https://soonhankwon.github.io/til/hashmap)
+
 ##############**LOADING**##############
+##############**STUDYING**##############
