@@ -44,6 +44,7 @@ Skill :
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 2
 - Linux Lv.1 / exp : 0
+- Web Lv.1 / exp :
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -66,8 +67,8 @@ Skill :
 22.12.07 Algorithm Skill exp +1
 [백준 JAVA11 10809번 : 알파벳 찾기](https://soonhankwon.github.io/algorithm/algorithm10809)
 
-22.12.19 Java Skill exp +1
-[자료구조, ArrayList vs LinkedList](https://soonhankwon.github.io/til/array-vs-linkedlist)
+22.12.19 Web Skill exp +1
+[CORS(Cross-Origin Resource Sharing)](https://soonhankwon.github.io/til/cors)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
