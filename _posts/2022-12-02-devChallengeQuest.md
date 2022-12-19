@@ -38,7 +38,7 @@ Title : Noob
 
 Skill : 
 
-- Java Lv.1 / exp : 2
+- Java Lv.1 / exp : 3
 - Spring Lv.1 / exp : 2
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
@@ -65,6 +65,9 @@ Skill :
 
 22.12.07 Algorithm Skill exp +1
 [백준 JAVA11 10809번 : 알파벳 찾기](https://soonhankwon.github.io/algorithm/algorithm10809)
+
+22.12.19 Java Skill exp +1
+[자료구조, ArrayList vs LinkedList](https://soonhankwon.github.io/til/array-vs-linkedlist)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
