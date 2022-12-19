@@ -42,7 +42,7 @@ Skill :
 - Spring Lv.1 / exp : 2
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 2
+- Algorithm Lv.1 / exp : 3
 - Linux Lv.1 / exp : 0
 - Web Lv.1 / exp : 1
 
@@ -70,7 +70,7 @@ Skill :
 22.12.19 Java Skill exp +1
 [자료구조, ArrayList vs LinkedList](https://soonhankwon.github.io/til/array-vs-linkedlist)
 
-22.12.19 Web Skill exp +1
+22.12.19 Algorithm Skill exp +1
 [CORS(Cross-Origin Resource Sharing)](https://soonhankwon.github.io/til/cors)
 
 ##############**LOADING**##############
