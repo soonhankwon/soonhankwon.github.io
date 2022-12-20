@@ -45,6 +45,7 @@ Skill :
 - Algorithm Lv.1 / exp : 3
 - Linux Lv.1 / exp : 0
 - Web Lv.1 / exp : 1
+- Computer Science Lv.1 / exp : 1
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -72,6 +73,9 @@ Skill :
 
 22.12.20 Algorithm Skill exp +1
 [시간복잡도와 공간복잡도](https://soonhankwon.github.io/til/complexity)
+
+22.12.20 Computer Science Skill exp +1
+[사용자 패스워드를 전송하고 보관하는 방법](https://soonhankwon.github.io/til/password)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
