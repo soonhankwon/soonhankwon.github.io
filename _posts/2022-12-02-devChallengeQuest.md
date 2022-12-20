@@ -38,7 +38,7 @@ Title : Noob
 
 Skill : 
 
-- Java Lv.1 / exp : 3
+- Java Lv.1 / exp : 4
 - Spring Lv.1 / exp : 3
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
@@ -82,6 +82,9 @@ Skill :
 
 22.12.20 Spring Skill exp +1
 [DI(Dependency Injection)](https://soonhankwon.github.io/til/di)
+
+22.12.20 Java Skill exp +1
+[call by reference(참조에 의한 호출)](https://soonhankwon.github.io/til/callByReference)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
