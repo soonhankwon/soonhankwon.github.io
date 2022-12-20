@@ -39,7 +39,7 @@ Title : Noob
 Skill : 
 
 - Java Lv.1 / exp : 3
-- Spring Lv.1 / exp : 2
+- Spring Lv.1 / exp : 3
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 4
@@ -79,6 +79,9 @@ Skill :
 
 22.12.20 Algorithm Skill exp +1
 [스택(Stack) 그리고 큐(Queue)](https://soonhankwon.github.io/til/stack-queue)
+
+22.12.20 Spring Skill exp +1
+[DI(Dependency Injection)](https://soonhankwon.github.io/til/di)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
