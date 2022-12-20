@@ -38,7 +38,7 @@ Title : Noob
 
 Skills : 
 
-- Java Lv.1 / exp : 4
+- Java Lv.1 / exp : 5
 - Spring Lv.1 / exp : 3
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
@@ -85,6 +85,9 @@ Skills :
 
 22.12.20 Java Skill exp +1
 [call by reference(참조에 의한 호출)](https://soonhankwon.github.io/til/callByReference)
+
+22.12.20 Java Skill exp +1
+[Overide vs Overload](https://soonhankwon.github.io/til/override-vs-overload)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
