@@ -2,7 +2,7 @@
 layout : single
 title : "call by reference(참조에 의한 호출)"
 categories : til
-tags : [til, java, datastructure] 
+tags : [til, java, lang] 
 ---
 
 **Mention** : call by reference? call by value? 그럼 자바에서는?👀
