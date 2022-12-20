@@ -7,6 +7,11 @@ tags : [til, datastructure]
 
 **Mention** : 쌓는가🏗, 줄을 서는가🎢?
 
+- 스택과 큐는 일종의 규칙이다.
+- 추상적 자료구조 (ADT)
+    - 자료구조의 방법이 코드로 정의 된 것이 아니다.
+    - 구조의 행동 양식만 정의된 것을 뜻함
+    
 ## 스택 (Stack)
 
 ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby1qnT%2FbtqBE1v1UlX%2FzbnXdYnGAXhMYbcDCca6WK%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fby1qnT%2FbtqBE1v1UlX%2FzbnXdYnGAXhMYbcDCca6WK%2Fimg.png)
