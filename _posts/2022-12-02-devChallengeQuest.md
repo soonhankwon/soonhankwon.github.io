@@ -42,7 +42,7 @@ Skill :
 - Spring Lv.1 / exp : 2
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 3
+- Algorithm Lv.1 / exp : 4
 - Linux Lv.1 / exp : 0
 - Web Lv.1 / exp : 1
 - Computer Science Lv.1 / exp : 1
@@ -76,6 +76,9 @@ Skill :
 
 22.12.20 Computer Science Skill exp +1
 [사용자 패스워드를 전송하고 보관하는 방법](https://soonhankwon.github.io/til/password)
+
+22.12.20 Algorithm Skill exp +1
+[스택(Stack) 그리고 큐(Queue)](https://soonhankwon.github.io/til/stack-queue)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
