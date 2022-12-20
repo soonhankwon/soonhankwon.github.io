@@ -13,7 +13,7 @@ Junior로 가는길
 2. SPRING SKILL UP
 3. MySQL SKILL UP
 4. GITHUB SKILL UP
-5. SIDE PROJECT
+5. COMPUTER SCIENCE UP
 
 다음의 스킬이 일정 수준 충족되었을시 전직이 가능하며, 새로운 퀘스트목록을 수령가능합니다.
 
@@ -36,7 +36,7 @@ JOB : Backend Developer
 
 Title : Noob
 
-Skill : 
+Skills : 
 
 - Java Lv.1 / exp : 4
 - Spring Lv.1 / exp : 3
