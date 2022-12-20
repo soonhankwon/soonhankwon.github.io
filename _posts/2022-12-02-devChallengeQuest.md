@@ -39,7 +39,7 @@ Title : Noob
 Skills : 
 
 - Java Lv.1 / exp : 5
-- Spring Lv.1 / exp : 3
+- Spring Lv.1 / exp : 4
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 4
@@ -88,6 +88,9 @@ Skills :
 
 22.12.20 Java Skill exp +1
 [Overide vs Overload](https://soonhankwon.github.io/til/override-vs-overload)
+
+22.12.20 Spring Skill exp +1
+[MVC Pattern](https://soonhankwon.github.io/til/mvc-pattern)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
