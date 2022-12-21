@@ -40,7 +40,7 @@ Skills :
 
 - Java Lv.1 / exp : 6
 - Spring Lv.1 / exp : 7
-- Database Lv.1 / exp : 1
+- Database Lv.1 / exp : 2
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 4
 - Linux Lv.1 / exp : 0
@@ -98,8 +98,11 @@ Skills :
 22.12.20 Spring Skill exp +1
 [더티체킹(Dirty Checking)이란?](https://soonhankwon.github.io/til/dirtychecking)
 
-22.12.20 Spring & Java Skill exp +1
+22.12.21 Spring & Java Skill exp +1
 [Annotation?](https://soonhankwon.github.io/til/annotation)
+
+22.12.21 Database Skill exp +1
+[Index(인덱스)](https://soonhankwon.github.io/til/index)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
