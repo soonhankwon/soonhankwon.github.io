@@ -38,8 +38,8 @@ Title : Noob
 
 Skills : 
 
-- Java Lv.1 / exp : 5
-- Spring Lv.1 / exp : 6
+- Java Lv.1 / exp : 6
+- Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 1
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 4
@@ -97,6 +97,9 @@ Skills :
 
 22.12.20 Spring Skill exp +1
 [더티체킹(Dirty Checking)이란?](https://soonhankwon.github.io/til/dirtychecking)
+
+22.12.20 Spring & Java Skill exp +1
+[Annotation?](https://soonhankwon.github.io/til/annotation)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
