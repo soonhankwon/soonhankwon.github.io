@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 2
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 4
+- Algorithm Lv.1 / exp : 5
 - Linux Lv.1 / exp : 0
 - Web Lv.1 / exp : 1
 - Computer Science Lv.1 / exp : 1
@@ -103,6 +103,9 @@ Skills :
 
 22.12.21 Database Skill exp +1
 [Index(인덱스)](https://soonhankwon.github.io/til/index)
+
+22.12.21 Algorithm Skill exp +1
+[이진탐색(Binary Search)](https://soonhankwon.github.io/til/binarySearch)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
