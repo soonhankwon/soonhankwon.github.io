@@ -111,7 +111,7 @@ Skills :
 [그래프(Graph)와 트리(Tree)](https://soonhankwon.github.io/til/graph-and-tree)
 
 22.12.21 Database Skill exp +1
-[모든 요소에 인덱스를 걸지 않는 이유](https://soonhankwon.github.io/til/indexissue)
+[모든 요소에 인덱스를 걸지 않는 이유](https://soonhankwon.github.io/til/index-issue)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
