@@ -40,7 +40,7 @@ Skills :
 
 - Java Lv.1 / exp : 6
 - Spring Lv.1 / exp : 7
-- Database Lv.1 / exp : 2
+- Database Lv.1 / exp : 3
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
@@ -109,6 +109,9 @@ Skills :
 
 22.12.21 Algorithm Skill exp +1
 [그래프(Graph)와 트리(Tree)](https://soonhankwon.github.io/til/graph-and-tree)
+
+22.12.21 Database Skill exp +1
+[모든 요소에 인덱스를 걸지 않는 이유](https://soonhankwon.github.io/til/indexissue)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
