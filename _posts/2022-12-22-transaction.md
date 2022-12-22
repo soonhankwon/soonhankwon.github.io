@@ -5,7 +5,7 @@ categories : til
 tags : [til, database, mysql] 
 ---
 
-**Mention** : 트랜잭션은 나를 너무 편하게 해주 고있었지만, 사실은 생각해야할 것이 많았다🧐
+**Mention** : 트랜잭션은 나를 너무 편하게 해주고 있었지만, 사실은 생각해야할 것이 많았다🧐
 
 ## 트랜잭션 (Transaction)
 
