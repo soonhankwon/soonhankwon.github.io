@@ -40,7 +40,7 @@ Skills :
 
 - Java Lv.1 / exp : 6
 - Spring Lv.1 / exp : 7
-- Database Lv.1 / exp : 4
+- Database Lv.1 / exp : 5
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
@@ -115,6 +115,9 @@ Skills :
 
 22.12.22 Database Skill exp +1
 [Composite Index(결합 인덱스)](https://soonhankwon.github.io/til/compositeIndex)
+
+22.12.22 Database Skill exp +1
+[Transaction(트랜잭션) and 동시성 제어](https://soonhankwon.github.io/til/transaction)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
