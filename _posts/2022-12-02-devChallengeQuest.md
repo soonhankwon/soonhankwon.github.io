@@ -40,7 +40,7 @@ Skills :
 
 - Java Lv.1 / exp : 6
 - Spring Lv.1 / exp : 7
-- Database Lv.1 / exp : 3
+- Database Lv.1 / exp : 4
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
@@ -112,6 +112,9 @@ Skills :
 
 22.12.21 Database Skill exp +1
 [모든 요소에 인덱스를 걸지 않는 이유](https://soonhankwon.github.io/til/index-issue)
+
+22.12.22 Database Skill exp +1
+[Composite Index(결합 인덱스)](https://soonhankwon.github.io/til/compositeIndex)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
