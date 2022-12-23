@@ -45,7 +45,7 @@ Skills :
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
 - Web Lv.1 / exp : 1
-- Computer Science Lv.1 / exp : 1
+- Computer Science Lv.1 / exp : 2
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -121,6 +121,9 @@ Skills :
 
 22.12.22 Database Skill exp +1
 [정규화(normalization),1NF,2NF,3NF,BCNF](https://soonhankwon.github.io/til/normalization)
+
+22.12.23 Computer Science Skill exp +1
+[HTTP에 비해 HTTPS가 안전한 이유](https://soonhankwon.github.io/til/http-vs-https)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
