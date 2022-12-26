@@ -126,7 +126,7 @@ Skills :
 [HTTP에 비해 HTTPS가 안전한 이유](https://soonhankwon.github.io/til/http-vs-https)
 
 22.12.26 Network Skill exp +1
-[Protocol & OSI 7 Layers](https://soonhankwon.github.io/til/protocol-osi7layer)
+[Protocol & OSI 7 Layer](https://soonhankwon.github.io/til/protocol-osi7layer)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
