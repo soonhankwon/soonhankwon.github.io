@@ -44,7 +44,7 @@ Skills :
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
-- Web Lv.1 / exp : 1
+- Network Lv.1 / exp : 2
 - Computer Science Lv.1 / exp : 2
 
 22.12.02 Spring Skill exp +1
@@ -122,8 +122,11 @@ Skills :
 22.12.22 Database Skill exp +1
 [정규화(normalization),1NF,2NF,3NF,BCNF](https://soonhankwon.github.io/til/normalization)
 
-22.12.23 Computer Science Skill exp +1
+22.12.23 Network Skill exp +1
 [HTTP에 비해 HTTPS가 안전한 이유](https://soonhankwon.github.io/til/http-vs-https)
+
+22.12.26 Network Skill exp +1
+[Protocol & OSI 7 Layers](https://soonhankwon.github.io/til/protocol-osi7layer)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
