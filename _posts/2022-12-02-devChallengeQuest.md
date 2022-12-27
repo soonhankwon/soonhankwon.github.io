@@ -130,5 +130,9 @@ Skills :
 
 22.12.27 Network Skill exp +1
 [TCP 3 Way-Handshake & 4 Way-handshake](https://soonhankwon.github.io/til/3wayhandshake)
+
+22.12.27 Java Skill exp +1
+[배열(Array)과 리스트(List)](https://soonhankwon.github.io/til/array-vs-list)
+
 ##############**LOADING**##############
 ##############**STUDYING**##############
