@@ -44,7 +44,7 @@ Skills :
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 6
 - Linux Lv.1 / exp : 0
-- Network Lv.1 / exp : 2
+- Network Lv.1 / exp : 3
 - Computer Science Lv.1 / exp : 2
 
 22.12.02 Spring Skill exp +1
@@ -128,5 +128,7 @@ Skills :
 22.12.26 Network Skill exp +1
 [Protocol & OSI 7 Layer](https://soonhankwon.github.io/til/protocol-osi7layer)
 
+22.12.27 Network Skill exp +1
+[TCP 3 Way-Handshake & 4 Way-handshake](https://soonhankwon.github.io/til/3wayhandshake)
 ##############**LOADING**##############
 ##############**STUDYING**##############
