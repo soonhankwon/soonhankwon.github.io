@@ -141,7 +141,7 @@ Skills :
 [백준 JAVA11 11659번 : 구간 합 구하기 4](https://soonhankwon.github.io/til/algorithm11659)
 
 22.12.27 Algorithm Skill exp +1
-[백준 11660번 구간 합 구하기 5-JAVA11](https://soonhankwon.github.io/til/algorithm11659)
+[백준 JAVA11 11660번 : 구간 합 구하기 5](https://soonhankwon.github.io/til/algorithm11660)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
