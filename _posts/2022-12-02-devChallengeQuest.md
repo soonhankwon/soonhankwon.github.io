@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 7
+- Algorithm Lv.1 / exp : 8
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 3
 - Computer Science Lv.1 / exp : 2
@@ -136,6 +136,9 @@ Skills :
 
 22.12.27 Algorithm Skill exp +1
 [구간 합(Prefix Sum)](https://soonhankwon.github.io/til/prefixSum)
+
+22.12.27 Algorithm Skill exp +1
+[백준 11659번 구간 합 구하기 4-JAVA11](https://soonhankwon.github.io/til/algorithm11659)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
