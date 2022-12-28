@@ -44,7 +44,7 @@ Skills :
 - Git Lv.1 / exp : 0
 - Algorithm Lv.1 / exp : 9
 - Linux Lv.1 / exp : 0
-- Network Lv.1 / exp : 3
+- Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 2
 
 22.12.02 Spring Skill exp +1
@@ -142,6 +142,9 @@ Skills :
 
 22.12.27 Algorithm Skill exp +1
 [백준 JAVA11 11660번 : 구간 합 구하기 5](https://soonhankwon.github.io/til/algorithm11660)
+
+22.12.28 Network Skill exp +1
+[TCP(Transmission Control Protocol) vs UDP(User Datagram Protocol)](https://soonhankwon.github.io/til/tcp-vs-udp)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
