@@ -153,7 +153,7 @@ Skills :
 [백준 JAVA11 1874번 : 스택 수열](https://soonhankwon.github.io/til/algorithm1874)
 
 22.12.28 Algorithm Skill exp +1 lv + 1
-[백준 JAVA11 2018번 : 수들의 합 5](https://soonhankwon.github.io/til/algorithm1874)
+[백준 JAVA11 2018번 : 수들의 합 5](https://soonhankwon.github.io/til/algorithm2018)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
