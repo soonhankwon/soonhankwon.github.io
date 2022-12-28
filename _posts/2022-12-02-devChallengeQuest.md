@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.1 / exp : 9
+- Algorithm Lv.2 / exp : 0
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 2
@@ -145,6 +145,9 @@ Skills :
 
 22.12.28 Network Skill exp +1
 [TCP(Transmission Control Protocol) vs UDP(User Datagram Protocol)](https://soonhankwon.github.io/til/tcp-vs-udp)
+
+22.12.28 Algorithm Skill exp +1 lv + 1
+[버블정렬(Bubble sort)와 선택정렬(Selection sort)](https://soonhankwon.github.io/til/sort1)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
