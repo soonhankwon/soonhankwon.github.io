@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.2 / exp : 2
+- Algorithm Lv.2 / exp : 3
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 3
@@ -157,6 +157,9 @@ Skills :
 
 22.12.29 Computer Science Skill exp +1 lv + 1
 [Base64 Encoding](https://soonhankwon.github.io/til/base64)
+
+22.12.29 Algorithm Skill exp +1 lv + 1
+[백준 JAVA11 12891번 : DNA 비밀번호](https://soonhankwon.github.io/til/algorithm12891)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
