@@ -34,7 +34,7 @@ LV : 1
 
 JOB : Backend Developer
 
-Title : Noob
+Title : Noob + Algorithm Silver
 
 Skills : 
 
@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.2 / exp : 3
+- Algorithm Lv.2 / exp : 4
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 3
