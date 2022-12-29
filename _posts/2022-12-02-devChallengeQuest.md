@@ -45,7 +45,7 @@ Skills :
 - Algorithm Lv.2 / exp : 2
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
-- Computer Science Lv.1 / exp : 2
+- Computer Science Lv.1 / exp : 3
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -154,6 +154,9 @@ Skills :
 
 22.12.28 Algorithm Skill exp +1 lv + 1
 [백준 JAVA11 2018번 : 수들의 합 5](https://soonhankwon.github.io/til/algorithm2018)
+
+22.12.29 Computer Science Skill exp +1 lv + 1
+[Base64 Encoding](https://soonhankwon.github.io/til/base64)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
