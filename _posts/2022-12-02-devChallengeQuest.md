@@ -161,5 +161,8 @@ Skills :
 22.12.29 Algorithm Skill exp +1 lv + 1
 [백준 JAVA11 12891번 : DNA 비밀번호](https://soonhankwon.github.io/til/algorithm12891)
 
+22.12.29 Algorithm Skill exp +1 lv + 1
+[백준 JAVA11 2750번 : 수 정렬하기](https://soonhankwon.github.io/til/algorithm2750)
+
 ##############**LOADING**##############
 ##############**STUDYING**##############
