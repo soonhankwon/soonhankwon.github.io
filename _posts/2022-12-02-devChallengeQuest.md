@@ -168,7 +168,7 @@ Skills :
 [백준 JAVA11 1427번 : 소트인사이드](https://soonhankwon.github.io/til/algorithm1427)
 
 22.12.30 Algorithm Skill exp +1 lv + 1
-[백준 JAVA11 11399번 : ATM](https://soonhankwon.github.io/til/algorithm1427)
+[백준 JAVA11 11399번 : ATM](https://soonhankwon.github.io/til/algorithm11399)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
