@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.2 / exp : 6
+- Algorithm Lv.2 / exp : 7
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 5
@@ -175,6 +175,9 @@ Skills :
 
 23.01.02 Computer Science Skill exp +1 lv + 1
 [Synchronous(동기) vs Asynchronous(비동기)](https://soonhankwon.github.io/til/sync-vs-async)
+
+23.01.02 Algorithm Skill exp +1 lv + 1
+[백준 JAVA11 2751번 : 수 정렬하기2](https://soonhankwon.github.io/til/algorithm2751)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
