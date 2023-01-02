@@ -45,7 +45,7 @@ Skills :
 - Algorithm Lv.2 / exp : 6
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
-- Computer Science Lv.1 / exp : 4
+- Computer Science Lv.1 / exp : 5
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -172,6 +172,9 @@ Skills :
 
 22.12.30 Computer Science Skill exp +1 lv + 1
 [프로세스(Process)와 스레드(Thread)](https://soonhankwon.github.io/til/thread-process)
+
+23.01.02 Computer Science Skill exp +1 lv + 1
+[Synchronous(동기) vs Asynchronous(비동기)](https://soonhankwon.github.io/til/sync-vs-async)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
