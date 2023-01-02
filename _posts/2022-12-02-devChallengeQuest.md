@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.2 / exp : 9
+- Algorithm Lv.3 / exp : 0
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 5
@@ -149,41 +149,44 @@ Skills :
 22.12.28 Algorithm Skill exp +1 lv + 1
 [버블정렬(Bubble sort)와 선택정렬(Selection sort)](https://soonhankwon.github.io/til/sort1)
 
-22.12.28 Algorithm Skill exp +1 lv + 1
+22.12.28 Algorithm Skill exp +1
 [백준 JAVA11 1874번 : 스택 수열](https://soonhankwon.github.io/til/algorithm1874)
 
-22.12.28 Algorithm Skill exp +1 lv + 1
+22.12.28 Algorithm Skill exp +1
 [백준 JAVA11 2018번 : 수들의 합 5](https://soonhankwon.github.io/til/algorithm2018)
 
-22.12.29 Computer Science Skill exp +1 lv + 1
+22.12.29 Computer Science Skill exp +1
 [Base64 Encoding](https://soonhankwon.github.io/til/base64)
 
-22.12.29 Algorithm Skill exp +1 lv + 1
+22.12.29 Algorithm Skill exp +1
 [백준 JAVA11 12891번 : DNA 비밀번호](https://soonhankwon.github.io/til/algorithm12891)
 
-22.12.29 Algorithm Skill exp +1 lv + 1
+22.12.29 Algorithm Skill exp +1
 [백준 JAVA11 2750번 : 수 정렬하기](https://soonhankwon.github.io/til/algorithm2750)
 
-22.12.29 Algorithm Skill exp +1 lv + 1
+22.12.29 Algorithm Skill exp +1
 [백준 JAVA11 1427번 : 소트인사이드](https://soonhankwon.github.io/til/algorithm1427)
 
-22.12.30 Algorithm Skill exp +1 lv + 1
+22.12.30 Algorithm Skill exp +1
 [백준 JAVA11 11399번 : ATM](https://soonhankwon.github.io/til/algorithm11399)
 
-22.12.30 Computer Science Skill exp +1 lv + 1
+22.12.30 Computer Science Skill exp +1
 [프로세스(Process)와 스레드(Thread)](https://soonhankwon.github.io/til/thread-process)
 
-23.01.02 Computer Science Skill exp +1 lv + 1
+23.01.02 Computer Science Skill exp +1
 [Synchronous(동기) vs Asynchronous(비동기)](https://soonhankwon.github.io/til/sync-vs-async)
 
-23.01.02 Algorithm Skill exp +1 lv + 1
+23.01.02 Algorithm Skill exp +1
 [백준 JAVA11 2751번 : 수 정렬하기2](https://soonhankwon.github.io/til/algorithm2751)
 
-23.01.02 Algorithm Skill exp +1 lv + 1
+23.01.02 Algorithm Skill exp +1
 [백준 JAVA11 10989번 : 수 정렬하기 3](https://soonhankwon.github.io/til/algorithm10989)
 
-23.01.02 Algorithm Skill exp +1 lv + 1
+23.01.02 Algorithm Skill exp +1
 [백준 JAVA11 11724번 : 연결 요소의 개수](https://soonhankwon.github.io/til/algorithm11724)
+
+23.01.02 Algorithm Skill exp +1 lv + 1
+[백준 JAVA11 1260번 : DFS와 BFS 프로그램](https://soonhankwon.github.io/til/algorithm1260)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
