@@ -192,7 +192,7 @@ Skills :
 [백준 JAVA11 1920번 : 수 찾기](https://soonhankwon.github.io/til/algorithm1920)
 
 23.01.03 Algorithm Skill exp +1
-[백준 JAVA11 2343번 : 기타 레슨](https://soonhankwon.github.io/til/algorithm1920)
+[백준 JAVA11 2343번 : 기타 레슨](https://soonhankwon.github.io/til/algorithm2343)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
