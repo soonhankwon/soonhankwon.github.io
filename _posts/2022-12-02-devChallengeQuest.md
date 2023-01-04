@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 6
 - Git Lv.1 / exp : 0
-- Algorithm Lv.3 / exp : 4
+- Algorithm Lv.3 / exp : 5
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 6
@@ -202,6 +202,9 @@ Skills :
 
 23.01.04 Computer Science exp +1
 [동시성(Concurrency) vs 병렬성(Parallelism)](https://soonhankwon.github.io/til/concurrent-parallel)
+
+23.01.04 Algorithm Skill exp +1
+[백준 JAVA11 1929번 : 소수 구하기](https://soonhankwon.github.io/til/algorithm1929)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
