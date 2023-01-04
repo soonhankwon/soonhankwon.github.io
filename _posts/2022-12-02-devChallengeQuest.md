@@ -45,7 +45,7 @@ Skills :
 - Algorithm Lv.3 / exp : 4
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
-- Computer Science Lv.1 / exp : 5
+- Computer Science Lv.1 / exp : 6
 
 22.12.02 Spring Skill exp +1
 [스프링 프레임워크에 대해서](https://soonhankwon.github.io/til/aboutspring-framework/)
@@ -199,6 +199,10 @@ Skills :
 
 23.01.03 Algorithm Skill exp +1
 [백준 JAVA11 1541번 : 잃어버린 괄호](https://soonhankwon.github.io/til/algorithm1541)
+
+23.01.04 Computer Science exp +1
+[동시성(Concurrency) vs 병렬성(Parallelism)](https://soonhankwon.github.io/til/concurrent-parallel)
+
 
 
 ##############**LOADING**##############
