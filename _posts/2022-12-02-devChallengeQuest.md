@@ -212,5 +212,8 @@ Skills :
 23.01.05 Algorithm Skill exp +1
 [백준 JAVA11 1850번 : 최대공약수](https://soonhankwon.github.io/til/algorithm1850)
 
+23.01.05 Algorithm Skill exp +1
+[백준 JAVA11 1033번 : 칵테일](https://soonhankwon.github.io/til/algorithm1033)
+
 ##############**LOADING**##############
 ##############**STUDYING**##############
