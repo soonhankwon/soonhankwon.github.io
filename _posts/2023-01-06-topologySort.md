@@ -27,6 +27,18 @@ tags : [til, algorithm, graph]
     - 이 과정을 모든 노드가 정렬될 때까지 반복
 
 ```java
+Input
+1 2
+1 3
+2 4
+2 5
+3 4
+4 5
+Output
+[1,2,3,4,5]
+```
+
+```java
 package graph;
 
 import java.util.ArrayList;
