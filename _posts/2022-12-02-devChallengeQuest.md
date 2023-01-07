@@ -228,7 +228,7 @@ Skills :
 [백준 JAVA11 2252번 : 줄 세우기](https://soonhankwon.github.io/til/algorithm2252)
 
 23.01.07 Algorithm Skill exp +1
-[백준 JAVA11 1516번 : 게임 개발](https://soonhankwon.github.io/til/algorithm2252)
+[백준 JAVA11 1516번 : 게임 개발](https://soonhankwon.github.io/til/algorithm1516)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
