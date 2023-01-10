@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 7
 - Git Lv.1 / exp : 0
-- Algorithm Lv.4 / exp : 3
+- Algorithm Lv.4 / exp : 4
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 6
@@ -235,6 +235,9 @@ Skills :
 
 23.01.10 Algorithm Skill exp +1
 [백준 JAVA11 1389번 : 케빈 베이컨의 6단계 법칙](https://soonhankwon.github.io/til/algorithm1389)
+
+23.01.10 Algorithm Skill exp +1
+[백준 JAVA11 13023번 : ABCDE](https://soonhankwon.github.io/til/algorithm13023)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
