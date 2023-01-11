@@ -242,9 +242,8 @@ Skills :
 23.01.10 Algorithm Skill exp +1
 [백준 JAVA11 2178번 : 미로 탐색](https://soonhankwon.github.io/til/algorithm2178)
 
-23.01.10 Algorithm Skill exp +1
+23.01.11 Algorithm Skill exp +1
 [백준 JAVA11 11725번 : 트리의 부모 찾기](https://soonhankwon.github.io/til/algorithm11725)
-
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
