@@ -251,5 +251,8 @@ Skills :
 23.01.12 Algorithm Skill exp +1
 [백준 JAVA11 1991번 : 트리 순회](https://soonhankwon.github.io/til/algorithm1991)
 
+23.01.12 Algorithm Skill exp +1
+[백준 JAVA11 2042번 : 구간 합](https://soonhankwon.github.io/til/algorithm2042)
+
 ##############**LOADING**##############
 ##############**STUDYING**##############
