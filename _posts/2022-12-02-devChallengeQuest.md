@@ -42,7 +42,7 @@ Skills :
 - Spring Lv.1 / exp : 7
 - Database Lv.1 / exp : 7
 - Git Lv.1 / exp : 0
-- Algorithm Lv.5 / exp : 8
+- Algorithm Lv.5 / exp : 9
 - Linux Lv.1 / exp : 0
 - Network Lv.1 / exp : 4
 - Computer Science Lv.1 / exp : 6
@@ -283,6 +283,9 @@ Skills :
 
 23.01.17 Algorithm Skill exp +1
 [백준 JAVA11 11003번 : 최솟값 찾기](https://soonhankwon.github.io/til/algorithm11003)
+
+23.01.19 Algorithm Skill exp +1
+[프로그래머스 JAVA LV1 : 2016년](https://soonhankwon.github.io/til/algorithm-p2016)
 
 ##############**LOADING**##############
 ##############**STUDYING**##############
