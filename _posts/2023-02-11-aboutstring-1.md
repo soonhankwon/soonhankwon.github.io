@@ -67,6 +67,6 @@ public class Prac1 {
 ```java
 //output
 str과 str2의 값이 다릅니다. //new 연산자로
-str과 str2의 값이 같습니다. //String str = "abc"
-str3 과 str4의 값이 같습니다. //equals 비교
+str과 str2의 값이 같습니다. //equals 비교
+str3 과 str4의 값이 같습니다. //String str = "abc"
 ```
