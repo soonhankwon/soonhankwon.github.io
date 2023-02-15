@@ -141,14 +141,14 @@ public interface MyInterface {
         System.out.println("sum: " + sum);
     }
 		// default 메서드3에 static method와 method 사용	
-		default void detailMethod3() {
-		        int x = 1;
-		        int y = 1;
-		        int sum = 0;
-		        sum = calculateMethod(x, y);
-		        sum = MyInnerclass2.calculateSum(x, y);
-		    }
-    
+	default void detailMethod3() {
+		int x = 1;
+		int y = 1;
+		int sum = 0;
+		sum = calculateMethod(x, y);
+		sum = MyInnerclass2.calculateSum(x, y);
+	}	                          
+                 	     
     private int calculateMethod(int x, int y) {
         return  x + y;
     }
