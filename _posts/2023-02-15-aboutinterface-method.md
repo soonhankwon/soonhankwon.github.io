@@ -9,9 +9,9 @@ tags : [java, til, lang, interface]
 
 java8 에서는 default method와 static method가 추가되었고, java9에서는 **private method와 private static method**가 추가되었다.
 
-default method와 static method
+### default method와 static method의 불편함 (캡슐화가 힘듬) 
 
-- 단지 특정 기능을 처리하는 내부 method 인데, 외부로 공개되는 public method로 만들어야 하기 떄문이다.
+- 단지 특정 기능을 처리하는 내부 method 인데, 외부로 공개되는 public method로 만들어야 하기 때문이다.
 - 인터페이스를 구현하는 다른 인터페이스 혹은 클래스가 해당 메서드에 엑세스하거나 상속하는 것을 원하지 않는경우 불편하다.
 - 코드의 중복 및 인터페이스에 대한 **캡슐화**를 유지하기 위해서 사용
 
