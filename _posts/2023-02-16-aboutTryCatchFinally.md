@@ -14,7 +14,7 @@ tags : [java, til, lang, anit]
 - "Avoid Needless Inheritance, Use Favor Composition Over Inheritance, Prefer Interfaces to Abstract Classes, and Always Design for Testability”
 - ANIT 패턴에서는 **테스트 용이성을 고려한 설계를 권장**다. 이때 **예외 처리**에 대한 고려가 중요한데, 예외 처리가 잘못 구현되면 테스트 용이성이 떨어지고, 버그가 발생할 가능성이 크다.
 - 따라서 try-catch-finally 블록을 적절하게 활용하여 예외 처리를 구현하는 것이 중요
-- ANIT 패턴에서는 **인터페이스를 사용하여 추상화를 정의**하고, 이를 구현하는 클래스를 만들어 **의존성을 낮추는 것을 권장**합니다.
+- ANIT 패턴에서는 **인터페이스를 사용하여 추상화를 정의**하고, 이를 구현하는 클래스를 만들어 **의존성을 낮추는 것을 권장**한다.
 - 이때 인터페이스를 구현하는 클래스에서 **예외 처리를 적절하게 구현**하면, 유연하고 안정적인 코드를 작성
 
 ### Finally Block 안에서 Return을 하지말자
