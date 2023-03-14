@@ -4,8 +4,6 @@ title : "Day 23: BST Level-Order Traversal - Java"
 categories : til
 tags : [java, til, bst, hackerrank] 
 ---
-# Day 23: BST Level-Order Traversal
-
 [문제 상세보기](https://www.hackerrank.com/challenges/30-binary-trees/problem?isFullScreen=true)
 
 ### Level-Order Traveral
