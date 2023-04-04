@@ -121,7 +121,7 @@ jobs:
       - name: Build Docker Image For Spring
         run: |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/san-monkey .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름] .
           docker push ${{ secrets.DOCKER_USERNAME }}/san-monkey
           
       # 서버에서 Docker 이미지 실행
@@ -132,8 +132,8 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_KEY }}
           script: |
-            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/san-monkey
-            sudo docker run -d -p 8080:8080 ${{ secrets.DOCKER_USERNAME }}/san-monkey
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름]
+            sudo docker run -d -p 8080:8080 ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름]
             sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
   Slack-Notification:
     needs: build
