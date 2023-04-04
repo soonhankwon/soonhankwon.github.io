@@ -148,45 +148,7 @@ jobs:
           fields: repo,commit,message,author
           mention: here
           if_mention: failure,cancelled
-```
-
-### Actions secrets
-
-- APPLICATION
-    
-    ```
-    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-    spring.datasource.url=
-    spring.datasource.username=
-    spring.datasource.password=
-    ```
-    
-- DOCKER_USERNAME
-    
-    ```
-    username
-    ```
-    
-- DOCKER_PASSWORD
-    
-    ```
-    1234
-    ```
-    
-- EC2_HOST
-    
-    ```
-    1.2.3.4
-    ```
-    
-- EC2_KEY
-    
-    ```
-    -----BEGIN RSA PRIVATE KEY-----
-    내용
-    -----END RSA PRIVATE KEY-----
-    ```
-    
+``` 
 
 ### Gradle Caching
 
