@@ -5,9 +5,7 @@ categories : til
 tags : [til, cd, github-actions] 
 ---
 
-### Intro
-
-**Github Actions** 와 **Docker** 를 사용해서 **EC2 서버**로 **배포 자동화**
+### **Github Actions** 와 **Docker** 를 사용해서 **EC2 서버**로 **배포 자동화**
 
 **feat** : 빌드 완료 후 **Slack Webhook** (알람)
 
