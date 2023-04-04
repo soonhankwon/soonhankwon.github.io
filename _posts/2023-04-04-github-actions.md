@@ -11,7 +11,7 @@ tags : [til, cd, github-actions]
 
 현재 사이드 프로젝트로 등산 관련 어플리케이션을 개발하고 있습니다.
 
-프로젝트간 안드로이드, 애플 모바일 개발 팀원분들 요구사항에 맞춰 빈번하게 빌드 & 배포해야할 상황이어서 **Github Actions**를 사용해서 배포 자동화(CD)를 구축해보았습니다.
+프로젝트간 안드로이드, iOS 모바일 개발 팀원분들 요구사항에 맞춰 빈번하게 빌드 & 배포해야할 상황이어서 **Github Actions**를 사용해서 배포 자동화(CD)를 구축해보았습니다.
 
 추가로 배포가 완료되면 슬랙 개발 채널에 알람이 자동으로 가도록 스크립트를 만들었습니다 **(slack web hook).**
 
@@ -31,10 +31,11 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 - master 브랜치 푸쉬 & PR 시 on
 - 기본 Checkout
 - JDK 버전 설정 (11, temurin)
-- 그래들 캐싱(20~30% 빌드 속도 향상)
+- Gradle Caching(20~30% 빌드 속도 향상)
 - secret에 저장한 properties 사용 (DB 정보)
 - Gradle Build
 - 도커 이미지 빌드 후 도커 허브 레포지토리에 푸시
+- 기존 돌아가고 있는 도커 이미지 컨테이너 삭제 (rm)
 - EC2 서버**(ubuntu)**에서 도커 이미지 pull
 - 도커 이미지 컨테이너 -d -p 로 nohub으로 구동
 - 80 → 8080 포트포워딩
@@ -93,7 +94,7 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           
-      # 그래들 캐싱
+      # Gradle Caching
       - name: Gradle Caching
         uses: actions/cache@v3
         with:
@@ -102,7 +103,7 @@ jobs:
             ~/.gradle/wrapper
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
-            ${{ runner.os }}-gradle-
+            ${{ runner.os }}-gradle-   
             
       # main 설정 파일 생성 및 write
       - name: Set .properties for main
@@ -121,8 +122,8 @@ jobs:
       - name: Build Docker Image For Spring
         run: |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름] .
-          docker push ${{ secrets.DOCKER_USERNAME }}/san-monkey
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리] .
+          docker push ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리]
           
       # 서버에서 Docker 이미지 실행
       - name: EC2 Docker Run
@@ -132,8 +133,10 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_KEY }}
           script: |
-            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름]
-            sudo docker run -d -p 8080:8080 ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리 이름]
+            sudo docker rm -f $(sudo docker ps -qa)
+            sudo docker rmi ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리]
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리]
+            sudo docker run -d -p 8080:8080 ${{ secrets.DOCKER_USERNAME }}/[도커 레포지토리]
             sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
   Slack-Notification:
     needs: build
