@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "Hacerrank : End-of-file (Java)"
+title : "Hackerrank : End-of-file (Java)"
 categories : til
 tags : [til, java, hackerrank] 
 ---
