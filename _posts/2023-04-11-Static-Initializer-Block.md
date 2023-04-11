@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "Hackerrank : Static Intializer Block (Java)"
+title : "Hackerrank : Static Initializer Block (Java)"
 categories : til
 tags : [til, java, hackerrank] 
 ---
