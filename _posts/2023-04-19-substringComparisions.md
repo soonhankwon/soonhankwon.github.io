@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "Hackerrank : Strings Introduction (Java)"
+title : "Hackerrank : Substring Comparisions (Java)"
 categories : til
 tags : [til, java, hackerrank] 
 ---
