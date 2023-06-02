@@ -1,8 +1,8 @@
 ---
 layout : single
 title : "Overide vs Overload"
-categories : til
-tags : [til, spring] 
+categories : java
+tags : [til, java] 
 ---
 
 **Mention** : 과적📦 vs 재정의💥

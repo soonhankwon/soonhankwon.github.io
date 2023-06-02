@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Day 24: More Linked Lists - Java"
-categories : til
+categories : hackerrank
 tags : [java, til, linkedlist, hackerrank] 
 ---
 [문제 상세보기](https://www.hackerrank.com/challenges/30-linked-list-deletion/problem?isFullScreen=true)

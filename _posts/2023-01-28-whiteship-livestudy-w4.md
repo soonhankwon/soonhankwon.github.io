@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "제어문"
-categories : til
+categories : java
 tags : [java, til, lang] 
 ---
 

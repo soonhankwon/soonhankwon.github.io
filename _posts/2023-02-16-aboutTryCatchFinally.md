@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "ANIT 패턴과 try-catch-finally가 관계가 있어?"
-categories : til
+categories : java
 tags : [java, til, lang, anit] 
 ---
 ## ANIT 패턴이 뭐지?🧐

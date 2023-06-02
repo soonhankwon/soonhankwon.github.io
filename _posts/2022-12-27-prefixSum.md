@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "구간 합(Prefix Sum)"
-categories : til
+categories : algorithm
 tags : [til, algorithm] 
 ---
 

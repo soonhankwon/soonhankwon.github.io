@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Synchronous(동기) vs Asynchronous(비동기) & Blocking vs Non-Blocking"
-categories : til
+categories : cs
 tags : [til, web, cs] 
 ---
 

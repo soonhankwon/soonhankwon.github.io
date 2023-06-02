@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "221107 About Database & MySQL Basic"
-categories : til
+categories : database
 tags : [database, til, mysql] 
 ---
 

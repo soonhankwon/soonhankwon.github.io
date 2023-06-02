@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "SpringBoot(gradle) + MySQL🐬 + JPA 연동하기"
-categories : til
+categories : spring
 tags : [til, spring, mysql] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Protocol & OSI 7 Layer"
-categories : til
+categories : network
 tags : [til, web, network] 
 ---
 

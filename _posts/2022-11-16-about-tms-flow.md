@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "221116 TMS FLOW"
-categories : til
+categories : project
 tags : [tms, til, project] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "데이터베이스 식별관계와 비식별관계"
-categories : til
+categories : database
 tags : [til, database, mysql] 
 ---
 

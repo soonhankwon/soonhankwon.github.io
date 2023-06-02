@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Annotation?"
-categories : til
+categories : java
 tags : [til, java, spring] 
 ---
 

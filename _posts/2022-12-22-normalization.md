@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "정규화(normalization),1NF,2NF,3NF,BCNF"
-categories : til
+categories : database
 tags : [til, database, mysql] 
 ---
 

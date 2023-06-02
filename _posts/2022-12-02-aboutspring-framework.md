@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "221202 스프링 프레임워크에 대해서"
-categories : til
+categories : spring
 tags : [til, spring] 
 ---
 

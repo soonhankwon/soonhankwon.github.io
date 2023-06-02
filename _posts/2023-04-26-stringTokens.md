@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : String Tokens (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## split, regular expression, filter

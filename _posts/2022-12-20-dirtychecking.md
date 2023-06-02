@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "더티체킹(Dirty Checking)이란?"
-categories : til
+categories : jpa
 tags : [til, spring, jpa] 
 ---
 

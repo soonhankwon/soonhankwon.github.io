@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Static Initializer Block (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## Static & Method Area

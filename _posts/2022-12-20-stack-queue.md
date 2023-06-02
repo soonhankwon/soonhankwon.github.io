@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "스택(Stack) 그리고 큐(Queue)"
-categories : til
+categories : datastructure
 tags : [til, datastructure] 
 ---
 

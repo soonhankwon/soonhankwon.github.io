@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Github Actions + Docker + EC2 (nohup, port-forwarding) 배포자동화"
-categories : til
+categories : cd
 tags : [til, cd, github-actions] 
 ---
 

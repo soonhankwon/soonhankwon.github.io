@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "모든 요소에 인덱스를 걸지 않는 이유"
-categories : til
+categories : database
 tags : [til, database, mysql] 
 ---
 

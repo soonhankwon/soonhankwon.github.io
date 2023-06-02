@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "자바9의 인터페이스에서 왜 static method 에 private을 추가했을까?"
-categories : til
+categories : java
 tags : [java, til, lang, interface] 
 ---
 

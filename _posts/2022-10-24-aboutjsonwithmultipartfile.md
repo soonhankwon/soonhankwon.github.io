@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "221024 About Json with MultipartFile"
+title : "About Json with MultipartFile"
 categories : til
 tags : [spring, til, http] 
 ---

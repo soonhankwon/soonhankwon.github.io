@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Pattern Syntax Checker (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## regex, pattern, complie

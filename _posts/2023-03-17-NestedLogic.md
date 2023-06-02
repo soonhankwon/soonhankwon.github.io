@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Day 26: Nested Logic - Java"
-categories : til
+categories : hackerrank
 tags : [java, til, algorithm, hackerrank] 
 ---
 [문제 상세보기](https://www.hackerrank.com/challenges/30-nested-logic/problem?isFullScreen=true)

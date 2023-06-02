@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "String은 래퍼클래스인데 == 비교시 값 같게 나오는 이유?"
-categories : til
+categories : java
 tags : [java, til, lang] 
 ---
 

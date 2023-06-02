@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "위상정렬(topology sort)"
-categories : til
+categories : algorithm
 tags : [til, algorithm, graph] 
 ---
 

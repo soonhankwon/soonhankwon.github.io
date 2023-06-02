@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "프로그래머스 JAVA LV2 : 주차 요금 계산"
-categories : til
+categories : algorithm
 tags : [algorithm, 프로그래머스] 
 ---
 

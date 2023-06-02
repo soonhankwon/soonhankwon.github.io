@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "HTTP에 비해 HTTPS가 안전한 이유"
-categories : til
+categories : http
 tags : [til, web] 
 ---
 

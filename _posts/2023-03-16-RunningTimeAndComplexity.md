@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Day 25: Running Time and Complexity - Java"
-categories : til
+categories : hackerrank
 tags : [java, til, algorithm, hackerrank] 
 ---
 [문제 상세보기](https://www.hackerrank.com/challenges/30-running-time-and-complexity/problem?isFullScreen=true)

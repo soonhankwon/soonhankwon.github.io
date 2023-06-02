@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "프로그래머스 JAVA LV1 : 개인정보 수집 유효기간"
-categories : til
+categories : algorithm
 tags : [algorithm, 프로그래머스] 
 ---
 

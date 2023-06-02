@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "call by reference(참조에 의한 호출)"
-categories : til
+categories : java
 tags : [til, java, lang] 
 ---
 

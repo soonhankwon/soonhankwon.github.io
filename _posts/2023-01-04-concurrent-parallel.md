@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "동시성(Concurrency) vs 병렬성(Parallelism)"
-categories : til
+categories : cs
 tags : [til, cs] 
 ---
 

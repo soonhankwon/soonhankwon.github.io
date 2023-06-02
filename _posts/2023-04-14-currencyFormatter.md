@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Currency Formatter (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## Locale, NumberFormat

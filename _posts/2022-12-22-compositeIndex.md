@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Composite Index(결합 인덱스)"
-categories : til
+categories : tidatabasel
 tags : [til, database, mysql] 
 ---
 

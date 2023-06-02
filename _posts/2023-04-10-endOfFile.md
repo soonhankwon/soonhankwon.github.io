@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : End-of-file (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 [문제 상세보기](https://www.hackerrank.com/challenges/java-end-of-file/problem)

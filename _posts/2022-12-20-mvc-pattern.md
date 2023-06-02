@@ -1,8 +1,8 @@
 ---
 layout : single
 title : "MVC Pattern"
-categories : til
-tags : [til, spring, designpattern] 
+categories : spring
+tags : [til, spring, mvc] 
 ---
 
 **Mention** : Model?📊 View?🎨 Controller?💁🏻‍♂️

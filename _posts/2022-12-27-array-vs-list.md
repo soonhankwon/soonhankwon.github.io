@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "배열(Array)과 리스트(List)"
-categories : til
+categories : datastructure
 tags : [til, datastructure, java] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Day 23: BST Level-Order Traversal - Java"
-categories : til
+categories : hackerrank
 tags : [java, til, bst, hackerrank] 
 ---
 [문제 상세보기](https://www.hackerrank.com/challenges/30-binary-trees/problem?isFullScreen=true)

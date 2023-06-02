@@ -1,7 +1,7 @@
 ---
 layout : single
-title : "221102 엔티티 연관관계에 관한 작은 메모(feat.인스타그램 좋아요 구현)"
-categories : til
+title : "엔티티 연관관계에 관한 작은 메모(feat.인스타그램 좋아요 구현)"
+categories : jpa
 tags : [spring, til, jpa] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
-title : "221025 Move to gitblog"
-categories : til
+title : "Move to gitblog"
+categories : gitblog
 tags : [git, til] 
 ---
 

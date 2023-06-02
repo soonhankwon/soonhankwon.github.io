@@ -1,7 +1,7 @@
 ---
 layout : single
 title : 추상 클래스를 상속받았을때 부모클래스의 추상메서드는 꼭 구현해줘야하나?
-categories : til
+categories : java
 tags : [java, til, lang, 추상화, 다형성] 
 ---
 

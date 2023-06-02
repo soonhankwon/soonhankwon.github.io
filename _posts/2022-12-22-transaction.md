@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Transaction(트랜잭션) and 동시성 제어"
-categories : til
+categories : database
 tags : [til, database, mysql] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Strings Introduction (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## String

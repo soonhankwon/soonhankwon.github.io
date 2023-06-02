@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "그래프(Graph)와 트리(Tree)"
-categories : til
+categories : datastructure
 tags : [til, datastructure] 
 ---
 

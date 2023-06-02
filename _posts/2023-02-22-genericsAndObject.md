@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Object 와 제네릭을 사용하는 것의 차이점?"
-categories : til
+categories : java
 tags : [java, til, lang, generics] 
 ---
 ## 제네릭(Generics)의 등장

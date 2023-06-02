@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "연산자"
-categories : til
+categories : java
 tags : [java, til, lang] 
 ---
 

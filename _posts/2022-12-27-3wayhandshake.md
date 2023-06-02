@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "TCP 3 Way-Handshake & 4 Way-handshake"
-categories : til
+categories : network
 tags : [til, web, network] 
 ---
 

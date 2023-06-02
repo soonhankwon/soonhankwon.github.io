@@ -1,8 +1,8 @@
 ---
 layout : single
-title : "221115 CI/CD 기초 개념과 GitHub Action"
-categories : til
-tags : [ci/cd, til, github-action] 
+title : "CI/CD 기초 개념과 GitHub Actions"
+categories : cicd
+tags : [ci/cd, til, github-actions] 
 ---
 # 221115 TIL
 

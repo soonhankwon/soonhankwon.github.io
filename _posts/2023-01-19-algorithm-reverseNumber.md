@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "프로그래머스 LV1 : 자연수 뒤집어 배열로 만들기"
-categories : til
+categories : algorithm
 tags : [algorithm, 프로그래머스, stack] 
 ---
 

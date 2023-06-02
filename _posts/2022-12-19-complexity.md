@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "시간복잡도와 공간복잡도"
-categories : til
+categories : algorithm
 tags : [til, algorithm, datastructure] 
 ---
 

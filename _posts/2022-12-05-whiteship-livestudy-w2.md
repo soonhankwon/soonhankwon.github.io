@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "자바 데이터 타입, 변수 그리고 배열"
-categories : til
+categories : java
 tags : [java, til, lang] 
 ---
 # 2주차과제 : 자바 데이터 타입, 변수 그리고 배열

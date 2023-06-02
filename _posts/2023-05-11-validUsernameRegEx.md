@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Valid Username Regular Expression (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## regex, validate

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "스프링 빈(Bean)에 대해서 1-1"
-categories : til
+categories : spring
 tags : [til, spring] 
 ---
 

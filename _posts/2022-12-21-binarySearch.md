@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "이진탐색(Binary Search)"
-categories : til
+categories : algorithm
 tags : [til, datastructure, algorithm] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
-title : "221122 About FetchType"
-categories : til
+title : "About FetchType"
+categories : jpa
 tags : [jpa, til, spring] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : String Reverse (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## StringBuilder, reverse

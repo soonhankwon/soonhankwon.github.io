@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Java Anagrams (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## toUppercase, Arrays.sort

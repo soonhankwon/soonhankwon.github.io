@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "프로그래머스 JAVA LV2 : k진수에서 소수 개수 구하기"
-categories : til
+categories : algorithm
 tags : [algorithm, 프로그래머스] 
 ---
 

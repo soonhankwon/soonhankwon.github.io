@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "Hackerrank : Substring Comparisions (Java)"
-categories : til
+categories : hackerrank
 tags : [til, java, hackerrank] 
 ---
 ## compareTo, SlidingWindow

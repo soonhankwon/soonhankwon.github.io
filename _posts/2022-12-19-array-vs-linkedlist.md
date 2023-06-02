@@ -1,8 +1,8 @@
 ---
 layout : single
 title : "자료구조, ArrayList vs LinkedList"
-categories : til
-tags : [til, java, datastructure] 
+categories : datastructure
+tags : [til, datastructure, java] 
 ---
 
 **Mention** : ArrayList vs LinkedList 또는 배열 vs 링크드리스트
