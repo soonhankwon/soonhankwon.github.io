@@ -4,19 +4,6 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-sidebar-category:
-  - title: "Categories"
-    children:
-    - title: "Blog"
-      url: "/blog"
-    - title: "Algorithm"
-      url: "/algorithm"
-    - title: "Java"
-      url: "/java"
-    - title: "JPA"
-      url: "/jpa"
-    - title: "Spring"
-      url: "/spring"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
