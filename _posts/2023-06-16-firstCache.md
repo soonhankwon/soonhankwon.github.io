@@ -125,16 +125,16 @@ class Solution {
         }
         for (String city : cities) {
             String cityLowerCased = city.toLowerCase();
-						// if 와 else 로직이 거의 중복, 반복되는 것을 볼 수 있다.
+				// if 와 else 로직이 거의 중복, 반복되는 것을 볼 수 있다.
             if (cacheQueue.size() < cacheSize) {
                 if(isCityExistCache(cacheQueue, cityLowerCased)) {
                     cachingCaseByHit(cacheQueue, cityLowerCased);
                     answer++;
                 }
                 else {
-										// 리팩토링이 가능한 부분
-										// 다른부분 -> cacheQueue.size() < cacheSize 이 녀석을 메서드로
-										// 그리고 함수자체를 매개 변수로 넘겨 리팩토링하면 어떨까?
+                // 리팩토링이 가능한 부분 cachingCaseByMiss 메서드에서 poll이 없는 부분만 다르다.
+				// cacheQueue.size() < cacheSize 이 녀석을 메서드로
+				// 그리고 추출된 boolean 함수자체를 매개 변수로 넘겨 리팩토링하면 어떨까?
                     cacheQueue.add(cityLowerCased);
                     answer += 5;
                 }
@@ -152,9 +152,18 @@ class Solution {
         }
         return answer;
     }
+
+    private static boolean isCityExistCache(Queue<String> cacheQueue, String city) {
+        return cacheQueue.contain(city);
+    }
     
-    private static void cachingCaseByHit(Queue<String> cacheQueue, String cityLowerCased) {
-        cacheQueue.remove(cityLowerCased);
-        cacheQueue.add(cityLowerCased);
+    private static void cachingCaseByHit(Queue<String> cacheQueue, String city) {
+        cacheQueue.remove(city);
+        cacheQueue.add(city);
+
+    private static void cachingCaseByMiss(Queue<String> cacheQueue, String city) {
+        cacheQueue.poll();
+        cacheQueue.add(city);
+    }
 }
 ```
