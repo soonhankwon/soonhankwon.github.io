@@ -43,7 +43,7 @@ public class ArrayCopyTest {
 
         System.arraycopy(books, 0 , copyBooks, 0, 5);
 
-        // 객체 주소 값을 복사하지만 books 와 copybooks 의 객체 주소값은 다르다.
+        // 객체 주소 값을 복사하지만 books 와 copybooks 배열 자체는 스택영역에 할당
         assertThat(copyBooks).isNotSameAs(books);
         // 객체 배열 요소들의 값은 같다.
         assertThat(copyBooks).isEqualTo(books);
