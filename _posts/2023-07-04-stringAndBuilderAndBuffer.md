@@ -15,7 +15,7 @@ tags : [string, stringbuilder, stringbuffer]
 
 ```java
 @Stable
-private **final** byte[] value;
+private final byte[] value;
 ```
 
 - String의 큰 특징은 위의 코드에서 보이듯이 불변이라는 것입니다. **final** 
@@ -37,7 +37,7 @@ private **final** byte[] value;
 
 ```java
 abstract class AbstractStringBuilder
-**byte[] value; //final이 아니다.**
+byte[] value; //final이 아니다.
 ```
 
 - StringBuilder 와 StringBuffer 는 가변객체입니다.
