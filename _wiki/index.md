@@ -1,11 +1,11 @@
 ---
 layout  : category
 title   : ROOT
-date    : {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
+date    : 2025-02-11 12:00:00 +0900
 toc     : true
 public  : true
 comment : false
-updated : 2021-07-25 18:00:13 +0900
+updated : 2025-02-12 13:57:00 +0900
 regenerate: true
 ---
 
