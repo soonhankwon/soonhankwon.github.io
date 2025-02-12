@@ -1,13 +1,13 @@
 # Site settings
-title: soonhankwon
+title: soonhankwon's wikiBlog
 url: "https://soonhankwon.github.io"
 baseurl: ""
 description: >
-    SoonhanKwon Wiki
+    SoonhanKwon Blog
 
 # My information
 email: soonable@gmail.com
-author: soonhankwon machine
+author: soonhankwon
 profile: INTJ
 twitter_username: soonhankwon
 github_username: soonhankwon
