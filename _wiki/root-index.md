@@ -8,9 +8,9 @@ updated : 2022-12-07 23:01:03 +0900
 regenerate: true
 ---
 
-## [[oop]]
+## [[spring]]
 
-* [[wiki-test01]]
+* [[spring-aop]]
 
 
 ---
