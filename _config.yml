@@ -1,15 +1,15 @@
 # Site settings
 title: soonhankwon
 url: "https://soonhankwon.github.io"
-baseurl: ""
+baseurl: "https://soonhankwon.github.io"
 description: >
     SoonhanKwon Wiki
 
 # My information
 email: soonable@gmail.com
 author: soonhankwon machine
-profile: 유물론자
-twitter_username: soonhankwon
+profile: INTJ
+twitter_username: soonable
 github_username: soonhankwon
 comment-support: utterances
 
@@ -39,13 +39,9 @@ collections:
 # Comment Service
 giscus:
   repo: soonhankwon/soonhankwon.github.io
-  repo_id: SAMPLE-VALUE
+  repo_id: 931248899
   category: Announcements
-  category_id: SAMPLE-VALUE
-
-google_analytics:
-  ua: SAMPLE-VALUE
-  encrypted_ua: THIS-IS-SAMPLE-VALUE
+  category_id: 8136515901
 
 google_adsense:
   client: SAMPLE-VALUE

@@ -44,7 +44,15 @@
 
 {% if site.google_analytics.ua and site.google_analytics.encrypted_ua %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL07GD02JH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-DL07GD02JH');
+    </script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.ua }}"></script> -->
     <script>
         // https://gist.github.com/chrisveness/43bcda93af9f646d083fad678071b90a
         async function aesGcmDecrypt(ciphertext, password) {
