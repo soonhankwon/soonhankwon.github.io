@@ -11,7 +11,7 @@ author: soonhankwon machine
 profile: INTJ
 twitter_username: soonhankwon
 github_username: soonhankwon
-comment-support: utterances
+comment-support: giscus
 
 # Build settings
 plugins:
@@ -35,6 +35,13 @@ collections:
     wiki:
         output: true
         permalink: /:collection/:path/
+
+# Comment Service
+giscus:
+  repo: soonhankwon/soonhankwon.github.io
+  repo_id: R_kgDON4G7Aw
+  category: Comments
+  category_id: DIC_kwDON4G7A84Cm5Cp
 
 google_adsense:
   client: SAMPLE-VALUE

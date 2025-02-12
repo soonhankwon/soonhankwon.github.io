@@ -2,10 +2,10 @@
     <div class="giscus"></div>
     <div class="post-comments">
     <script src="https://giscus.app/client.js"
-        data-repo="soonhankwon/soonhankwon.github.io"
-        data-repo-id="R_kgDON4G7Aw"
-        data-category="Comments"
-        data-category-id="DIC_kwDON4G7A84Cm5Cp"
+        data-repo="{{ site.giscus.repo }}"
+        data-repo-id="{{ site.giscus.repo_id }}"
+        data-category="{{ site.giscus.category }}"
+        data-category-id="{{ site.giscus.category_id }}"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -15,6 +15,6 @@
         data-lang="ko"
         crossorigin="anonymous"
         async>
-</script>
+    </script>
     </div>
 {% endif %}
