@@ -46,7 +46,7 @@ giscus:
 utterances:
   repo: soonhankwon/soonhankwon.github.io
   issue-term: url
-  label: Comment
+  label: comment
   branch: master
 
 google_adsense:
