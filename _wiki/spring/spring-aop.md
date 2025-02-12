@@ -2,8 +2,8 @@
 layout  : wiki
 title   : Aspect Oriented Programming
 summary : 
-date    : {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
-updated : 2023-03-17 12:15:24 +0900
+date    : 2025-02-12 13:57:00 +0900
+updated : 2025-02-12 13:57:00 +0900
 tag     : spring proxy
 toc     : true
 comment : true
