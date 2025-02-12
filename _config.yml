@@ -9,7 +9,7 @@ description: >
 email: soonable@gmail.com
 author: soonhankwon machine
 profile: INTJ
-twitter_username: soonable
+twitter_username: soonhankwon
 github_username: soonhankwon
 comment-support: utterances
 
@@ -38,7 +38,7 @@ collections:
 
 # Comment Service
 giscus:
-  repo: soonhankwon/soonhankwon.github.io
+  repo: soonhankwon.github.io
   repo_id: 931248899
   category: Announcements
   category_id: 8136515901
