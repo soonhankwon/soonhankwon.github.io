@@ -36,13 +36,6 @@ collections:
         output: true
         permalink: /:collection/:path/
 
-# Comment Service
-giscus:
-  repo: soonhankwon/soonhankwon.github.io
-  repo_id: R_kgDON4G7Aw
-  category: Comments
-  category_id: DIC_kwDON4G7A84Cm5Cp
-
 google_adsense:
   client: SAMPLE-VALUE
 
