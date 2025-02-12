@@ -6,7 +6,9 @@
   "dependencies": {
     "yamljs": "^0.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
   "scripts": {
     "test": "echo no test found"
   },
