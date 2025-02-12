@@ -79,7 +79,7 @@ layout  : category
 title   : 제목을 입력합니다.
 summary : 
 date    : 2022-10-06 00:00:00 +0900
-updated : 2025-02-12 12:43:20 +0900
+updated : 2025-02-12 12:48:31 +0900
 tag     : 
 toc     : true
 public  : true
@@ -106,7 +106,7 @@ latex   : false
 layout  : wiki
 title   : 제목을 적습니다
 date    : 2022-10-08 11:23:00 +0900
-updated : 2025-02-12 12:43:20 +0900
+updated : 2025-02-12 12:48:31 +0900
 tag     : 
 toc     : true
 public  : true

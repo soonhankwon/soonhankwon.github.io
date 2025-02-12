@@ -1,7 +1,7 @@
 ---
 layout  : category
 title   : ROOT
-date    : 2017-11-26 12:42:03 +0900
+date    : {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
 toc     : true
 public  : true
 comment : false
