@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Spring Framework",
+ "summary": "스프링 프레임워크",
+ "parent": "index",
+ "url": "/wiki/spring",
+ "updated": "2025-02-12 13:57:00 +0900",
+ "children": [
+  "spring/spring-aop"
+ ]
+}
