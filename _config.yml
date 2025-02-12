@@ -1,7 +1,7 @@
 # Site settings
 title: soonhankwon
 url: "https://soonhankwon.github.io"
-baseurl: ""
+baseurl: "https://soonhankwon.github.io"
 description: >
     SoonhanKwon Wiki
 
@@ -11,7 +11,7 @@ author: soonhankwon machine
 profile: INTJ
 twitter_username: soonhankwon
 github_username: soonhankwon
-comment-support: giscus
+comment-support: utterances
 
 # Build settings
 plugins:
@@ -42,6 +42,12 @@ giscus:
   repo_id: R_kgDON4G7Aw
   category: Comments
   category_id: DIC_kwDON4G7A84Cm5Cp
+
+utterances:
+  repo: soonhankwon/soonhankwon.github.io
+  issue-term: url
+  label: Comment
+  branch: master
 
 google_adsense:
   client: SAMPLE-VALUE

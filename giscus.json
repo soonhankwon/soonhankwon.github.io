@@ -1,7 +1,3 @@
 {
-  "origins": [
-    "https://soonable.github.io",
-    "https://giscus.app",
-    "https://github.com"
-  ]
+  "origins": ["https://soonable.github.io"]
 }
