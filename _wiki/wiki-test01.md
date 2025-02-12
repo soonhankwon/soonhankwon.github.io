@@ -2,8 +2,8 @@
 layout  : wiki
 title   : wiki-test01
 summary :
-date    : {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
-updated : 2025-02-12 12:18:29 +0900
+date    : 2025-02-12 13:57:00 +0900
+updated : 2025-02-12 13:57:00 +0900
 tag     : test
 resource: 7C/C3DE70-9283-43F3-BF44-0CD01F2D08B6
 toc     : true
