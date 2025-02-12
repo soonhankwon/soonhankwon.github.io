@@ -1,16 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: soonhankwon
+url: "https://soonhankwon.github.io"
 baseurl: ""
 description: >
     기계인간 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
+email: soonable@gmail.com
+author: soonhankwon machine
 profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+twitter_username: soonhankwon
+github_username: soonhankwon
 comment-support: utterances
 
 # Build settings
