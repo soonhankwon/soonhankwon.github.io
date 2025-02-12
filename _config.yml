@@ -38,10 +38,10 @@ collections:
 
 # Comment Service
 giscus:
-  repo: soonhankwon.github.io
-  repo_id: 931248899
-  category: Announcements
-  category_id: 8136515901
+  repo: soonhankwon/soonhankwon.github.io
+  repo_id: R_kgDON4G7Aw
+  category: Comments
+  category_id: DIC_kwDON4G7A84Cm5Cp
 
 google_adsense:
   client: SAMPLE-VALUE
