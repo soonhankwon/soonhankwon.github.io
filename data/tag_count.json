@@ -4,6 +4,10 @@
   "size": 1
  },
  {
+  "name": "redis",
+  "size": 1
+ },
+ {
   "name": "spring",
   "size": 2
  },
