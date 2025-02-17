@@ -1,7 +1,7 @@
 # Site settings
 title: soonhankwon
 url: "https://soonhankwon.github.io"
-baseurl: ""
+baseurl: "https://soonhankwon.github.io"
 description: >
     SoonhanKwon's WikiBlog
 
