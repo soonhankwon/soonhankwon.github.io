@@ -10,8 +10,6 @@ regenerate: true
 
 ## Spring
 
-* [[/spring/spring-aop]]
-
 ## Redis
 
 ## Discrete Mathematics

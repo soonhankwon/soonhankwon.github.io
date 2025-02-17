@@ -8,16 +8,12 @@
   "size": 2
  },
  {
-  "name": "proxy",
-  "size": 1
- },
- {
   "name": "redis",
   "size": 1
  },
  {
   "name": "spring",
-  "size": 2
+  "size": 1
  },
  {
   "name": "test",

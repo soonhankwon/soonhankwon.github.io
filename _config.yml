@@ -49,6 +49,9 @@ utterances:
   label: comment
   branch: master
 
+google_analytics:
+  ua: G-DL07GD02JH
+
 google_adsense:
   client: SAMPLE-VALUE
 
