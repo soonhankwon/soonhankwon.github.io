@@ -1,5 +1,13 @@
 [
  {
+  "name": "discrete",
+  "size": 2
+ },
+ {
+  "name": "mathematics",
+  "size": 2
+ },
+ {
   "name": "proxy",
   "size": 1
  },

@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Discrete Mathematics",
+ "summary": "이산수학",
+ "parent": "index",
+ "url": "/wiki/discrete-mathematics",
+ "updated": "2025-02-17 14:02:00 +0900",
+ "children": [
+  "discrete-mathematics/overview-of-discrete-mathematics"
+ ]
+}

@@ -14,6 +14,8 @@ regenerate: true
 
 ## Redis
 
+## Discrete Mathematics
+
 ---
 
 ## blog posts
