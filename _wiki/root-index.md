@@ -16,6 +16,8 @@ regenerate: true
 
 ## Discrete Mathematics
 
+* [[/discrete-mathematics/overview-of-discrete-mathematics]]
+
 ---
 
 ## blog posts
