@@ -31,7 +31,7 @@ latex: true
 ## About Me
 
 * Backend Engineer 입니다.
-* Computer Science, Economics를 전공했습니다.
+* Computer Science, Economics 를 전공했습니다.
 * 수학, 과학을 동경합니다.
 * 모르는 것이 많아 매일 공부합니다.
 
@@ -50,9 +50,10 @@ latex: true
     - 운전자를 위한 리워드 애플리케이션 "차덕" 개발
         - Spring, Java 백엔드 개발
 
-- 부트캠프 백엔드 코치 - _2024-06-01 ~ 2025-02-13_
-    - 항해 리부트, 스킬업 코스(팀스파르타)
-        - Algorithm, 백엔드 개발 멘토링
+- 부트캠프 백엔드 코치 - _2024-06-01 ~ 현재_
+    - 항해 리부트, 단기 스킬업 코스(팀스파르타)
+        - Algorithm, Backend 개발 멘토링
 
 - Coupang - _2019-09-01 ~ 2021-09-08_
     - Camp Management LV3
+        - Data Analysis, Outsourcing Management
