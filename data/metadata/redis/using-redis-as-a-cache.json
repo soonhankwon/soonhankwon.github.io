@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Using Redis as a cache",
+ "summary": "",
+ "parent": "redis",
+ "url": "/wiki/redis/using-redis-as-a-cache",
+ "updated": "2025-02-19 16:07:00 +0900",
+ "children": []
+}

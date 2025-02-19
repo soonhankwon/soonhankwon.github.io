@@ -4,13 +4,15 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2022-12-07 23:01:03 +0900
+updated : 2025-02-19 16:11:00 +0900
 regenerate: true
 ---
 
 ## Spring
 
 ## Redis
+
+* [[/redis/using-redis-as-a-cache]]
 
 ## Operating System
 

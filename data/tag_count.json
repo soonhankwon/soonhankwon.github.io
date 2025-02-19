@@ -1,5 +1,9 @@
 [
  {
+  "name": "cache",
+  "size": 1
+ },
+ {
   "name": "discrete",
   "size": 2
  },
@@ -13,7 +17,7 @@
  },
  {
   "name": "redis",
-  "size": 1
+  "size": 2
  },
  {
   "name": "spring",
