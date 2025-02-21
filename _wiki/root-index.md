@@ -14,7 +14,7 @@ regenerate: true
 
 * [[/redis/using-redis-as-a-cache]]
 
-## Operating System
+## Operating Systems
 
 ## Discrete Mathematics
 
