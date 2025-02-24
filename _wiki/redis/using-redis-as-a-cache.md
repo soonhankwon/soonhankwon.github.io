@@ -3,7 +3,7 @@ layout  : wiki
 title   : Using Redis as a cache
 summary : 
 date    : 2025-02-19 16:07:00 +0900
-updated : 2025-02-19 16:07:00 +0900
+updated : 2025-02-24 15:03:00 +0900
 tag     : redis cache
 toc     : true
 comment : true
@@ -33,3 +33,13 @@ latex   : true
     - 원본 데이터 저장소 장애 → 캐시에서 데이터 조회 사용 → 장애시간 감소
 
 ### Redis as a cache
+
+Very simple to use.
+
+- Key-Value 형태로 저장 → 데이터를 저장하고 반환하는 것이 심플함
+- 자체적으로 다양한 자료 구조(Datastructures) 제공
+- 인메모리(In-memory) 데이터 저장소 → 데이터 검색 및 리턴이 상당히 빠르다.
+- 자체적인 고가용성 기능(Sentinel 또는 Cluster) → 마스터 노드의 장애를 자동으로 감지 → [failover](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%95%A0_%EA%B7%B9%EB%B3%B5_%EA%B8%B0%EB%8A%A5) → 캐시정상 유지 
+- 레디스 클러스터 → 캐시의 Scale-out 또한 쉽게 처리 가능
+
+### Cachung Strategy
