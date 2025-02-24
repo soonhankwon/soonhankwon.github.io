@@ -42,4 +42,4 @@ Very simple to use.
 - 자체적인 고가용성 기능(Sentinel 또는 Cluster) → 마스터 노드의 장애를 자동으로 감지 → [failover](https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%95%A0_%EA%B7%B9%EB%B3%B5_%EA%B8%B0%EB%8A%A5) → 캐시정상 유지 
 - 레디스 클러스터 → 캐시의 Scale-out 또한 쉽게 처리 가능
 
-### Cachung Strategy
+### Caching Strategy
