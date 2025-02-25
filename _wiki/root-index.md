@@ -8,13 +8,9 @@ updated : 2025-02-19 16:11:00 +0900
 regenerate: true
 ---
 
-## Spring
-
 ## Redis
 
 * [[/redis/using-redis-as-a-cache]]
-
-## Operating Systems
 
 ## Discrete Mathematics
 
@@ -22,7 +18,7 @@ regenerate: true
 
 ---
 
-## blog posts
+## Articles
 <div>
     <ul>
 {% for post in site.posts %}
