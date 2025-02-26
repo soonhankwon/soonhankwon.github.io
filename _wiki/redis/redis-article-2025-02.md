@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : 개발자도 모르는 Redis 100% 활용 가이드
+title   : 개발자도 모르는 Redis 100% 활용 가이드(항해99 아티클)
 summary : Redis, 잘 쓰려면 이렇게 써야 합니다.
 date    : 2025-02-15 16:07:00 +0900
 updated : 2025-02-26 10:44:00 +0900
@@ -13,6 +13,8 @@ latex   : true
 ---
 * TOC
 {:toc}
+
+[본문링크](https://hanghae99.spartacodingclub.kr/blog/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84-%EB%AA%A8%EB%A5%B4%EB%8A%94-redis%EB%A0%88%EB%94%94%EC%8A%A4-100-%ED%99%9C%EC%9A%A9-%EA%B0%80%EC%9D%B4%EB%93%9C-44961)
 
 ### Redis, 그냥 캐시로만 쓰고 계신가요?
 

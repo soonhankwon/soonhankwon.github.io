@@ -1,6 +1,6 @@
 {
  "type": "wiki",
- "title": "개발자도 모르는 Redis 100% 활용 가이드",
+ "title": "개발자도 모르는 Redis 100% 활용 가이드(항해99 아티클)",
  "summary": "Redis, 잘 쓰려면 이렇게 써야 합니다.",
  "parent": "redis",
  "url": "/wiki/redis/redis-article-2025-02",
