@@ -11,6 +11,9 @@ regenerate: true
 ## Redis
 
 * [[/redis/using-redis-as-a-cache]]
+
+## Redis Article
+
 * [[/redis/redis-article-2025-02]]
 
 ## Discrete Mathematics
@@ -18,8 +21,6 @@ regenerate: true
 * [[/discrete-mathematics/overview-of-discrete-mathematics]]
 
 ---
-
-## Articles
 <div>
     <ul>
 {% for post in site.posts %}
