@@ -1,13 +1,15 @@
 ---
-layout  : post
+layout  : wiki
 title   : 개발자도 모르는 Redis 100% 활용 가이드
 summary : Redis, 잘 쓰려면 이렇게 써야 합니다.
-date    : 2025-02-25 18:22:00 +0900
-tag     : redis
-resource: CE/7B98C2-F86D-46A9-949B-56BAA0135AF6
+date    : 2025-02-15 16:07:00 +0900
+updated : 2025-02-26 10:44:00 +0900
+tag     : redis article
 toc     : true
 comment : true
 public  : true
+parent  : [[/redis]]
+latex   : true
 ---
 * TOC
 {:toc}

@@ -1,5 +1,9 @@
 [
  {
+  "name": "article",
+  "size": 1
+ },
+ {
   "name": "cache",
   "size": 1
  },

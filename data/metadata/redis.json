@@ -6,6 +6,7 @@
  "url": "/wiki/redis",
  "updated": "2025-02-19 16:12:00 +0900",
  "children": [
+  "redis/redis-article-2025-02",
   "redis/using-redis-as-a-cache"
  ]
 }

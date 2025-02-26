@@ -11,6 +11,7 @@ regenerate: true
 ## Redis
 
 * [[/redis/using-redis-as-a-cache]]
+* [[/redis/redis-article-2025-02]]
 
 ## Discrete Mathematics
 
