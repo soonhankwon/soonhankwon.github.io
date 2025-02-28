@@ -8,6 +8,9 @@ updated : 2025-02-19 16:11:00 +0900
 regenerate: true
 ---
 
+## System Design
+* [[/system-design/cap-theory]]
+
 ## Redis
 
 * [[/redis/using-redis-as-a-cache]]

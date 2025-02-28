@@ -8,6 +8,10 @@
   "size": 1
  },
  {
+  "name": "cap",
+  "size": 1
+ },
+ {
   "name": "discrete",
   "size": 2
  },
@@ -26,5 +30,9 @@
  {
   "name": "spring",
   "size": 1
+ },
+ {
+  "name": "system-design",
+  "size": 2
  }
 ]
