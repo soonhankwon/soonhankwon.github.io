@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-02-19 16:11:00 +0900
+updated : 2025-03-05 16:10:00 +0900
 regenerate: true
 ---
 
@@ -14,6 +14,7 @@ regenerate: true
 ## Redis
 
 * [[/redis/using-redis-as-a-cache]]
+* [[/redis/data-flow-in-cache]]
 
 ## Redis Article
 
