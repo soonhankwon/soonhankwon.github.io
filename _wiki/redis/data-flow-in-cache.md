@@ -3,7 +3,7 @@ layout  : wiki
 title   : Data flow in cache
 summary : 
 date    : 2025-03-05 16:04:00 +0900
-updated : 2025-03-05 16:04:00 +0900
+updated : 2025-03-06 16:42:00 +0900
 tag     : redis cache
 toc     : true
 comment : true
