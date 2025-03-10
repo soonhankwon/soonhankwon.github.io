@@ -33,7 +33,7 @@ latex   : true
     - **트래픽 패턴**, 상태관리, 서버 성능 차이
     - RR(Round Robin): Simple
         - O(1)
-    - Least Connections: 서버가 가진 세션 부하를 확인해서 부하분산 → 불균형 문제 완화
+    - Least Connections: 서버가 가진 세션 부하를 확인해서 부하 분산 → 불균형 문제 완화
         - n개의 서버를 Scan → O(n)
     - IP Hash: 클라이언트 IP 해싱 → 매핑 → 클라이언트는 항상 동일한 서버로 접속
         - O(1)
@@ -46,7 +46,7 @@ latex   : true
 
 ### LB & API Gateway
 
-- User → AWS Managed GW, LB [Auth, RateLimiting, Security, Rountng] → Micro Architecture, Monolith Architecture
-    - RR, Least Connection [ 시간 복잡도 고려 ]
+- User → AWS Managed GW, LB for Auth, RateLimiting, Security, Rountng → Micro Architecture, Monolith Architecture
+    - RR, Least Connection(시간 복잡도 고려)
 - GW, LB 사용시 추가적인 **Network Hop** 발생
-    - 간단한 요청이라면 사용안하는것이 유리 & 비용
+    - 간단한 요청이라면 사용안하는것이 유리 & 비용고려
