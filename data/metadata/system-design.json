@@ -6,6 +6,7 @@
  "url": "/wiki/system-design",
  "updated": "2025-02-28 10:21:00 +0900",
  "children": [
-  "system-design/cap-theory"
+  "system-design/cap-theory",
+  "system-design/load-balancer"
  ]
 }

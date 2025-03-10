@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Load Balancer",
+ "summary": "로드밸런서",
+ "parent": "system-design",
+ "url": "/wiki/system-design/load-balancer",
+ "updated": "2025-03-10 10:16:00 +0900",
+ "children": []
+}

@@ -10,5 +10,6 @@
  "/wiki/root-index",
  "/wiki/spring",
  "/wiki/system-design",
- "/wiki/system-design/cap-theory"
+ "/wiki/system-design/cap-theory",
+ "/wiki/system-design/load-balancer"
 ]

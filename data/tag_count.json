@@ -16,6 +16,10 @@
   "size": 2
  },
  {
+  "name": "load-balancer",
+  "size": 1
+ },
+ {
   "name": "mathematics",
   "size": 2
  },
@@ -33,6 +37,6 @@
  },
  {
   "name": "system-design",
-  "size": 2
+  "size": 3
  }
 ]

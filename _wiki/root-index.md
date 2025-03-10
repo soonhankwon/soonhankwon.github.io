@@ -10,6 +10,7 @@ regenerate: true
 
 ## System Design
 * [[/system-design/cap-theory]]
+* [[/system-design/load-balancer]]
 
 ## Redis
 
