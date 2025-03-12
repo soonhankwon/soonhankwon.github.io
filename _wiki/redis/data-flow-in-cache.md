@@ -70,13 +70,13 @@ latex   : true
 - maxmemory: 데이터의 최대 저장 용량 설정
 - **maxmemory-policy**: 용량 초과시 처리 방식 결정
 
-### maxmemory-policy: Noeviction
+### Noeviction
 
 - **기본값**: 데이터가 가득 차더라도 임의로 데이터를 삭제하지 않음 → 에러 반환
     - 캐시에 데이터 저장 불가능시 → 로직에 따라 장애상황 발생
     - 데이터가 가득 차더라도, 캐시 내부적 판단으로 데이터 삭제가 위험하다고 판단될 때 사용 가능
 
-### maxmemory-policy: LRU eviction
+### LRU eviction
 
 - **LRU(Least-Recently Used)** eviction 레디스에 데이터가 가득 찼을 때 **가장 최근에 사용되지 않은 데이터**부터 **삭제**하는 정책
     - 가장 덜(L) 최근에(R) 사용된(U)
@@ -89,7 +89,7 @@ latex   : true
 - allkeys-LRU
     - **모든 키**에 대해 LRU 알고리즘을 이용해 데이터 삭제 → 장애 방지
 
-### maxmemory-policy: LFU eviction
+### LFU eviction
 
 - **LFU(Least-Frequently Used)** eviction 레디스에 데이터가 가득 찼을 때 **가장 자주 사용되지 않은 데이터**부터 **삭제**하는 정책
     - 가장 덜(L) 자주(F) 사용된(U)
@@ -104,7 +104,7 @@ latex   : true
     - 모든 키를 정확하게 찾아내는 것은 불필요한 CPU, 메모리 리소스 소비 가능성
     - 특정 키를 근사치로 찾아내 효율적으로 데이터를 삭제하는 방법으로 작동됨
 
-### maxmemory-policy: RANDOM eviction
+### RANDOM eviction
 
 - 레디스에 저장된 키 중 하나를 **임의**로 골라내 삭제
     - 삭제될 키 값을 계산하지 않음 → 레디스 부하가 없다.
@@ -116,7 +116,7 @@ latex   : true
 - allkeys-random
     - 모든 키에 대해 Random 방식으로 데이터 삭제
 
-### maxmemory-policy: volatile-ttl
+### volatile-ttl
 
 - **만료 시간이 가장 작은 키**를 삭제
     - 삭제 예정 시간이 얼마 남지 않은 키를 추출해 해당 키를 미리 삭제
