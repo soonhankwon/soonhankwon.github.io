@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Cache stampede",
+ "summary": "",
+ "parent": "redis",
+ "url": "/wiki/redis/cache-stampede",
+ "updated": "2025-03-13 16:12:00 +0900",
+ "children": []
+}

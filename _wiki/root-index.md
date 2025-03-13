@@ -16,6 +16,7 @@ regenerate: true
 
 * [[/redis/using-redis-as-a-cache]]
 * [[/redis/data-flow-in-cache]]
+* [[/redis/cache-stampede]]
 
 ## Redis Article
 

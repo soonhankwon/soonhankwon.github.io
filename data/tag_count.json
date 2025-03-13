@@ -5,7 +5,7 @@
  },
  {
   "name": "cache",
-  "size": 2
+  "size": 3
  },
  {
   "name": "cap",
@@ -29,7 +29,7 @@
  },
  {
   "name": "redis",
-  "size": 4
+  "size": 5
  },
  {
   "name": "spring",
