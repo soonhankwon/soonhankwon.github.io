@@ -1,5 +1,6 @@
 [
  "redis/cache-stampede",
  "redis/data-flow-in-cache",
+ "redis/redis-as-a-session-store",
  "redis/using-redis-as-a-cache"
 ]

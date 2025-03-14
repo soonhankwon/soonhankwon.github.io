@@ -9,6 +9,7 @@
   "redis/cache-stampede",
   "redis/data-flow-in-cache",
   "redis/redis-article-2025-02",
+  "redis/redis-as-a-session-store",
   "redis/using-redis-as-a-cache"
  ]
 }

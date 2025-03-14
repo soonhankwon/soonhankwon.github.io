@@ -17,6 +17,7 @@ regenerate: true
 * [[/redis/using-redis-as-a-cache]]
 * [[/redis/data-flow-in-cache]]
 * [[/redis/cache-stampede]]
+* [[/redis/redis-as-a-session-store]]
 
 ## Redis Article
 
