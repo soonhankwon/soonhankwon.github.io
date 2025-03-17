@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-03-05 16:10:00 +0900
+updated : 2025-03-17 15:13:00 +0900
 regenerate: true
 ---
 
@@ -18,6 +18,7 @@ regenerate: true
 * [[/redis/data-flow-in-cache]]
 * [[/redis/cache-stampede]]
 * [[/redis/redis-as-a-session-store]]
+* [[/redis/using-redis-as-a-message-broker]]
 
 ## Redis Article
 

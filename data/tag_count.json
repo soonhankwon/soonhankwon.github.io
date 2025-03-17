@@ -24,12 +24,16 @@
   "size": 2
  },
  {
+  "name": "message-broker",
+  "size": 1
+ },
+ {
   "name": "os",
   "size": 1
  },
  {
   "name": "redis",
-  "size": 6
+  "size": 7
  },
  {
   "name": "session",
