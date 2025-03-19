@@ -28,6 +28,14 @@
   "size": 1
  },
  {
+  "name": "monolithic",
+  "size": 1
+ },
+ {
+  "name": "msa",
+  "size": 1
+ },
+ {
   "name": "os",
   "size": 1
  },
@@ -45,6 +53,6 @@
  },
  {
   "name": "system-design",
-  "size": 3
+  "size": 4
  }
 ]

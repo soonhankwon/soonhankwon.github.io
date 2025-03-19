@@ -14,5 +14,6 @@
  "/wiki/spring",
  "/wiki/system-design",
  "/wiki/system-design/cap-theory",
- "/wiki/system-design/load-balancer"
+ "/wiki/system-design/load-balancer",
+ "/wiki/system-design/monolithic-vs-microservice"
 ]

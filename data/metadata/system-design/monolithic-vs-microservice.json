@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "Monolithic vs MicroService Architecture",
+ "summary": "모놀리스와 마이크로서비스 아키텍처",
+ "parent": "system-design",
+ "url": "/wiki/system-design/monolithic-vs-microservice",
+ "updated": "2025-03-19 15:24:00 +0900",
+ "children": []
+}
