@@ -21,7 +21,7 @@ latex   : true
 - 대규모 트래픽 환경에서 만료 시간을 어떻게 설정하냐에 따라 [캐시 스탬피드(cache stampede)]((https://en.wikipedia.org/wiki/Cache_stampede))와 같은 예상치 못한 문제 상황 발생
 - look aside 방식 → **특정 키가 만료**되는 시점 → 만약 여러 개의 애플리케이션에서 바라보던 키가 레디스에서 만료되 삭제된다면?
     - 한꺼번에 데이터베이스에서 데이터를 읽어옴 → **중복 읽기(duplicate read)**와 **중복 쓰기(duplicate write)** 발생 → 데이터베이스 부하 → 서비스 이슈 가능성
-- 더 많은 데이터가 이 현상에 영향을 받음 → 더 큰 문제 → **계단적 실패(cascadeing failure)**
+- 더 많은 데이터가 이 현상에 영향을 받음 → 더 큰 문제 → **계단적 실패(cascading failure)**
 
 ### 적절한 만료시간 설정
 
