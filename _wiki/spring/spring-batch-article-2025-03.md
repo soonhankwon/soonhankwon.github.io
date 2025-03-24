@@ -94,7 +94,7 @@ latex   : true
                     MovieGenre movieGenre = Arrays.stream(MovieGenre.values())
                                             .filter(genre -> genre.getDescription().equals(genreStr))
                                             .findFirst()
-                                            .orElse(null);
+                                            .orElse(MovieGenre.UNKNOWN);
                                             
                     Movie movie = Movie.builder()
                                 .title(title)
@@ -170,7 +170,7 @@ latex   : true
                     MovieGenre movieGenre = Arrays.stream(MovieGenre.values())
                                             .filter(genre -> genre.getDescription().equals(genreStr))
                                             .findFirst()
-                                            .orElse(null);
+                                            .orElse(MovieGenre.UNKNOWN);
                                             
                     Movie movie = Movie.builder()
                                 .title(title)
