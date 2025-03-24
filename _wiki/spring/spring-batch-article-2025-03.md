@@ -67,6 +67,7 @@ latex   : true
     public class MovieBatchService {
         private final MovieRepository movieRepository;
         
+        @Transactional
         public void batchMovies() {
             int failCount = 0;
             long start = System.currentTimeMillis();
@@ -140,6 +141,7 @@ latex   : true
     public class MovieBatchService {
         private final MovieRepository movieRepository;
         
+        @Transactional
         public void batchMovies() {
             int failCount = 0;
             long start = System.currentTimeMillis();
@@ -217,6 +219,7 @@ latex   : true
         private final int PARALLELISM = Runtime.getRuntime().availableProcessors();
         private final Executor executor = Executors.newFixedThreadPool(PARALLELISM);
         
+        @Transactional
         public void batchMovies() {
             long start = System.currentTimeMillis();
             
@@ -300,6 +303,7 @@ CompletableFuture를 활용한 병렬 처리 방식(3차, 38초)에서 한 단�
         private final int PARALLELISM = Runtime.getRuntime().availableProcessors();
         private final Executor executor = Executors.newFixedThreadPool(PARALLELISM);
         
+        @Transactional
         public void batchMovies() {
             long start = System.currentTimeMillis();
             
@@ -366,6 +370,7 @@ CompletableFuture를 활용한 병렬 처리 방식(3차, 38초)에서 한 단�
         private final JdbcTemplate jdbcTemplate;
         private final int BATCH_SIZE = 500; // 500 Buffer
         
+        @Transactional
         public void batchMovies() {
             long start = System.currentTimeMillis();
             
