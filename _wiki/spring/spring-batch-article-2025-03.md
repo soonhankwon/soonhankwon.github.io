@@ -41,6 +41,7 @@ latex   : true
     - Apple M3 Pro(core 11, Memory 36G)
 - 프레임워크 및 기술스택
     - SpringBoot 3.4.3, Spring Data JPA, Java 21
+    - PostgreSQL 16
 
 ### Test Result
 
