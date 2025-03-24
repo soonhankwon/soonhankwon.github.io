@@ -25,6 +25,9 @@ regenerate: true
 
 * [[/redis/redis-article-2025-02]]
 
+## Spring Article
+* [[/spring/spring-batch-article-2025-03]]
+
 ## Discrete Mathematics
 
 * [[/discrete-mathematics/overview-of-discrete-mathematics]]
