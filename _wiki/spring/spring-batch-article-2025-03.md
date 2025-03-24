@@ -27,6 +27,7 @@ latex   : true
 ### Pre-Condition(테스트 가정 및 검증할 포인트)
 
 - **가정 및 검증할 포인트**
+    - Spring Batch 라이브러리는 사용하지 않는다.
     - CSV 변환은 org.apache.commons:commons-csv:1.10.0 사용
     - **JPA save()**가 가장 느릴 것이다. → 트랜잭션 오버헤드 때문
     - **JPA saveAll()**을 활용하여 트랜잭션 오버헤드를 줄인다. → 여러 개의 INSERT를 한 번에 수행
