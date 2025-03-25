@@ -16,9 +16,9 @@ latex   : true
 
 ### 23,887초에서 9초로: 120만건 데이터 삽입 최적화
 
-항해 스킬업 코스를 코칭하면서, 수강생 분들이 괜찮은 데이터셋을 가지고 프로젝트를 진행하면 좋겠다고 생각이 들었습니다. 여러가지 데이터셋을 찾아본 결과 Kaggle의 [Full TMDB Movies Dataset](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies) 2024를 선택했습니다.
+항해 스킬업 코스를 코칭하면서, 수강생 분들이 의미있는 데이터셋을 가지고 프로젝트를 진행하면 좋겠다고 생각이 들었습니다. 여러가지 데이터셋을 찾아본 결과 Kaggle의 [Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)를 선택했습니다.
 
-- 이 데이터셋을 선택한 이유
+- 해당 데이터셋을 선택한 이유
     - 대용량 데이터(100만건 이상) → Index와 Caching의 효과를 테스트하기 적합
     - **코스 프로젝트와 유사한 구조** → 장르, 개봉일 등 주요 컬럼이 포함됨
 
