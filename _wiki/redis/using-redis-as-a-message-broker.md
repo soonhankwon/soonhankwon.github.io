@@ -44,3 +44,47 @@ latex   : true
             - e.g) 스트림에 쌓인 데이터는 일정 기간 동안 지워지지 않기 때문에 새로 추가된 서비스도 스트림에 남아있는 이전 데이터의 히스토리를 볼 수 있음
 - 메시지 큐는 **일대일(1:1)** 상황에서 유용하게 사용
 - 스트림은 **다대다(n:n)** 상황에서 유리함
+
+### Redis pub/sub
+
+레디스는 아주 가벼운 **pub/sub** 기능 제공
+
+- publisher →(pub)→ 메시지 → [ 특정 Channel ] →(sub)→ 메시지 → subscriber
+- **매우 가벼움** → **최소한의 메시지 전달 기능**만 제공
+    - 발행자: 메시지를 채널로 보낼 수만 있다.
+    - 구독자: 메시지를 받을 수 만 있다.
+    - e.g) 모든 구독자에게 메시지가 전달됐는지와 같은 기능 제공하지 않음
+- 한 번 전파된 메시지는 레디스에 저장되지 않음
+- 단순한 메시지 통로 역할
+- 장애가 발생해 메시지를 받지 못하더라도, 사실을 알 수 없다.
+    - 정합성이 중요한 데이터 전달에는 적합하지 않을 수 있음
+- 메시지 **publish**하기
+    
+    ```bash
+    PUBLISH hello world
+    (integer) 0
+    ```
+    
+- 메시지 **구독(subscribe)**하기
+    - e.g) event1, event2 채널을 동시 구독
+    
+    ```bash
+    SUBSCRIBE event1 event2
+    1) "subscribe"
+    2) "event1"
+    3) (integer) 1
+    1) "subscribe"
+    2) "event2"
+    3) (integer) 2
+    ```
+    
+    - **PSUBSCRIBE** 일치하는 패턴에 해당하는 채널을 한 번에 구독(glob-style pattern)
+        - 메시지는 pmessage 타입으로 전달
+        - SUBSCRIBE 커맨드를 이용해 구독하는 방식과 구분됨
+    
+    ```bash
+    PSUBSCRIBE mail-*
+    1) "psubscribe"
+    2) "mail-*"
+    3) (integer) 1
+    ```
