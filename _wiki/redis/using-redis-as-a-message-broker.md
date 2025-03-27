@@ -1,10 +1,10 @@
 ---
 layout  : wiki
 title   : Using Redis as a Message Broker
-summary : 
-date    : 2025-03-17 15:05:00 +0900
-updated : 2025-03-17 15:05:00 +0900
-tag     : redis message-broker
+summary : 레디스를 메시지 브로커로 사용하기
+date    : 2025-03-27 16:05:00 +0900
+updated : 2025-03-27 16:05:00 +0900
+tag     : redis message-broker pub-sub
 toc     : true
 comment : true
 public  : true

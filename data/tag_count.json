@@ -52,6 +52,10 @@
   "size": 1
  },
  {
+  "name": "pub-sub",
+  "size": 1
+ },
+ {
   "name": "redis",
   "size": 7
  },
