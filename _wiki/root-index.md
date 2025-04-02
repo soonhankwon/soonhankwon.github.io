@@ -28,11 +28,8 @@ regenerate: true
 ## Spring Article
 * [[/spring/spring-batch-article-2025-03]]
 
-## Discrete Mathematics
-
-* [[/discrete-mathematics/overview-of-discrete-mathematics]]
-
 ## AI
+* [[/ai/fuzzy-theory]]
 
 ---
 <div>
