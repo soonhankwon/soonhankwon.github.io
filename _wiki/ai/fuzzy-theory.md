@@ -1,7 +1,7 @@
 ---
 layout  : wiki
 title   : Fuzzy theory
-summary : 
+summary : 퍼지이론
 date    : 2025-04-02 10:00:00 +0900
 updated : 2025-04-02 10:00:00 +0900
 tag     : ai fuzzy
