@@ -1,5 +1,9 @@
 [
  {
+  "name": "ai",
+  "size": 2
+ },
+ {
   "name": "article",
   "size": 1
  },
@@ -16,8 +20,12 @@
   "size": 1
  },
  {
-  "name": "discrete",
+  "name": "discrete-mathematics",
   "size": 2
+ },
+ {
+  "name": "fuzzy",
+  "size": 1
  },
  {
   "name": "jdbc",
@@ -30,10 +38,6 @@
  {
   "name": "load-balancer",
   "size": 1
- },
- {
-  "name": "mathematics",
-  "size": 2
  },
  {
   "name": "message-broker",

@@ -32,6 +32,8 @@ regenerate: true
 
 * [[/discrete-mathematics/overview-of-discrete-mathematics]]
 
+## AI
+
 ---
 <div>
     <ul>

@@ -4,7 +4,7 @@ title   : Overview of Discrete Mathematics
 summary : 
 date    : 2025-02-17 14:05:00 +0900
 updated : 2025-02-19 10:13:00 +0900
-tag     : discrete mathematics
+tag     : discrete-mathematics
 toc     : true
 comment : true
 public  : true

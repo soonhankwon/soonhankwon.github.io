@@ -4,6 +4,7 @@
  "url": "/wiki/index",
  "updated": "2022-12-07 23:01:03 +0900",
  "children": [
+  "ai",
   "discrete-mathematics",
   "operating-systems",
   "redis",

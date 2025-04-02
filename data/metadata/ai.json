@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "Artificial Intelligence",
+ "summary": "인공지능",
+ "parent": "index",
+ "url": "/wiki/ai",
+ "updated": "2025-04-02 10:37:00 +0900",
+ "children": [
+  "ai/fuzzy-theory"
+ ]
+}
