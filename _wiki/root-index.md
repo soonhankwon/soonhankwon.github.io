@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-03-17 15:13:00 +0900
+updated : 2025-04-12 21:28:00 +0900
 regenerate: true
 ---
 
@@ -12,6 +12,7 @@ regenerate: true
 * [[/system-design/cap-theory]]
 * [[/system-design/load-balancer]]
 * [[/system-design/monolithic-vs-microservice]]
+* [[/system-design/cdn]]
 
 ## Redis
 
