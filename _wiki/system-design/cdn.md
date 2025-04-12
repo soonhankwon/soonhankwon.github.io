@@ -78,8 +78,8 @@ latex   : true
 - CloudFront Distribution 생성
     - Origin 원본 서버 연결
 - 캐싱 정책 설정
-    - 정적 컨텐츠(eg 이미지): 긴 TTL(eg 7일)
-    - 동적 컨텐츠(eg API 응답): 짧은 TTL(eg 1시간)
+    - 정적 컨텐츠(e.g 이미지): 긴 TTL(eg 7일)
+    - 동적 컨텐츠(e.g API 응답): 짧은 TTL(eg 1시간)
 - HTTPS 설정
     - AWS ACM으로 무료 SSL 인증서를 적용해 보안을 강화
 
