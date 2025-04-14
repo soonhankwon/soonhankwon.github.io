@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "CDN(Content Delivery Network)",
+ "summary": "CDN 빠르고 안전한 컨텐츠 전송",
+ "parent": "system-design",
+ "url": "/wiki/system-design/cdn",
+ "updated": "2025-04-12 21:24:00 +0900",
+ "children": []
+}

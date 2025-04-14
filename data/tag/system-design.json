@@ -1,6 +1,7 @@
 [
  "system-design",
  "system-design/cap-theory",
+ "system-design/cdn",
  "system-design/load-balancer",
  "system-design/monolithic-vs-microservice"
 ]

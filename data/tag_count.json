@@ -20,6 +20,10 @@
   "size": 1
  },
  {
+  "name": "cdn",
+  "size": 1
+ },
+ {
   "name": "fuzzy",
   "size": 1
  },
@@ -69,6 +73,6 @@
  },
  {
   "name": "system-design",
-  "size": 4
+  "size": 5
  }
 ]
