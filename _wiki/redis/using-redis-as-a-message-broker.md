@@ -3,7 +3,7 @@ layout  : wiki
 title   : Using Redis as a Message Broker
 summary : 레디스를 메시지 브로커로 사용하기
 date    : 2025-03-27 16:05:00 +0900
-updated : 2025-03-27 16:05:00 +0900
+updated : 2025-04-24 16:05:00 +0900
 tag     : redis message-broker pub-sub
 toc     : true
 comment : true
@@ -88,3 +88,29 @@ latex   : true
     2) "mail-*"
     3) (integer) 1
     ```
+### 클러스터 구조에서의 pub/sub
+
+Redis Cluster: 레디스가 자체적으로 제공하는 **데이터 분산** 형태의 구조
+
+- 클러스터: 대규모 서비스에서 **데이터를 분산, 저장하고 처리**하기 위해 도입
+    - Redis 클러스터 내에서 기본 pub/sub 사용 시, 메시지가 클러스터의 모든 노드에서 구독자를 찾는 방식으로 동작 → 클러스터 환경에서 네트워크 부하 발생 가능성
+    - 불필요한 리소스 사용과 네트워크 부하를 줄이기 위한 개선 필요
+
+### sharded pub/sub
+
+비효율을 해결하기 위해 레디스 7.0에서 도입
+
+- 각 **channel**은 **slot**에 매핑
+    - 같은 슬롯을 가지고 있는 노드 간에만 pub/sub 메시지를 전파
+    
+    ```bash
+    SPUBLISH apple a
+    (integer) 0
+    SSUBSCRIBE apple
+    1) "ssubscribe"
+    2) "apple"
+    3) (integer) 1
+    ```
+    
+- SPUBLISH 커맨드로 발행된 메시지는 모든 노드에 전파되지 않으며, 해당 슬롯을 담당하는 노드와 그 **노드의 복제본(replica)**에만 전달
+- Sharded pub/sub을 이용 → 클러스터 구조에서 pub/sub 되는 메시지가 모든 노드로 전파되지 않기 때문에 불필요한 복제를 줄여 자원을 절약할 수 있다.
