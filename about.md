@@ -46,7 +46,7 @@ latex: true
 
 ## Job Experience
 
-- 요즘피플 - _2024-06-27 ~ 현재_
+- 요즘피플 CTO - _2024-06-27 ~ 현재_
     - 자동차 드라이빙 앱테크 애플리케이션 "차덕" 개발
         - Spring, Java 백엔드 개발
         - 모빌리티 주행 및 위치데이터를 활용한 리워드 시스템 개발
@@ -58,5 +58,5 @@ latex: true
         - Redis를 활용한 대규모 트래픽 처리 멘토링
 
 - Coupang - _2019-09-01 ~ 2021-09-08_
-    - Camp Management LV3
+    - Camp Management L3
         - Data Analysis, Outsourcing Management
