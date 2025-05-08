@@ -1,4 +1,5 @@
 [
  "ai",
- "ai/fuzzy-theory"
+ "ai/fuzzy-theory",
+ "ai/ml-random-forest"
 ]

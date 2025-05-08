@@ -4,7 +4,7 @@ title   : wiki
 toc     : true
 public  : true
 comment : false
-updated : 2025-04-12 21:28:00 +0900
+updated : 2025-05-08 11:34:00 +0900
 regenerate: true
 ---
 
@@ -31,6 +31,7 @@ regenerate: true
 
 ## AI
 * [[/ai/fuzzy-theory]]
+* [[/ai/ml-random-forest]]
 
 ---
 <div>

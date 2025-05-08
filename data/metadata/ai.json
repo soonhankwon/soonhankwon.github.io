@@ -6,6 +6,7 @@
  "url": "/wiki/ai",
  "updated": "2025-04-02 10:37:00 +0900",
  "children": [
-  "ai/fuzzy-theory"
+  "ai/fuzzy-theory",
+  "ai/ml-random-forest"
  ]
 }

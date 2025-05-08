@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "아이리스 데이터셋으로 배우는 랜덤 포레스트 분류기",
+ "summary": "Scikit-Learn 활용한 랜덤 포레스트 분류기(ML)",
+ "parent": "ai",
+ "url": "/wiki/ai/ml-random-forest",
+ "updated": "2025-05-08 11:16:00 +0900",
+ "children": []
+}

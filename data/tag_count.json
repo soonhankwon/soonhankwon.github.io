@@ -1,7 +1,7 @@
 [
  {
   "name": "ai",
-  "size": 2
+  "size": 3
  },
  {
   "name": "article",
@@ -44,6 +44,10 @@
   "size": 1
  },
  {
+  "name": "ml",
+  "size": 1
+ },
+ {
   "name": "monolithic",
   "size": 1
  },
@@ -60,8 +64,16 @@
   "size": 1
  },
  {
+  "name": "random-forest",
+  "size": 1
+ },
+ {
   "name": "redis",
   "size": 7
+ },
+ {
+  "name": "scikit-learn",
+  "size": 1
  },
  {
   "name": "session",
