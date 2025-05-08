@@ -44,6 +44,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 ### 랜덤 포레스트 모델 학습
 
 [랜덤 포레스트](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8)는 여러 개의 결정 트리를 조합하여 예측을 수행하는 앙상블 모델입니다. 각 트리는 서로 다른 특성과 샘플을 사용하여 과적합을 줄이고 성능을 향상시킵니다.
+ 
+- 랜덤 포레스트는 **정답(label) 정보**를 기반으로 학습하는 **지도학습(Supervised Learning) 모델**이며, 대표적으로 **분류(Classification)**와 회귀(Regression) 문제에 널리 사용됩니다.
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
