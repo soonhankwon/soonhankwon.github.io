@@ -34,6 +34,7 @@ regenerate: true
 * [[/ai/ml-random-forest]]
 
 ## LangChain
+* [[/langchain/what-is-langchain]]
 
 ---
 <div>
