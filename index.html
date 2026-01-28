@@ -8,14 +8,11 @@ regenerate: true
     <div>
         <h3>Problem OverFlow</h3>
     </div>
-        기억 보조용 위키
+        <span class="wiki-subtitle">기억 보조용 위키</span>
     <div>
     </div>
     <div>
-        <!-- <a href="/blog/">Post</a>
-        / -->
-        <a href="/tag/">Tag</a>
-        <p>단축키 도움말: ctrl + h</p>
+        <a href="/recent/">All Posts</a>
     </div>
     <div class="contact">
 {% if site.github_username %}
@@ -31,11 +28,11 @@ regenerate: true
     </div>
 </div>
 <div>
-    <H3 class="indent">Recently Changed Documents</H3>
+    <H3 class="indent">Recent Posts</H3>
     <ul class="post-list">
 {% assign documents = site.wiki | sort: 'updated' | reverse %}
 {% for doc in documents limit: 30 %}
-    {% if doc.public == true and doc.title != 'wiki'%}
+    {% if doc.public == true and doc.layout != 'category' and doc.layout != 'wikiindex' and doc.title != 'wiki' %}
         <li>
             <div class="post-item">
                 <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
@@ -45,19 +42,29 @@ regenerate: true
                         {{ doc.title }}
                     </div>
                     <div class="post-excerpt">{{ doc.summary }}</div>
-                    <ul class="tag-list">
-                        <li class="post-tag">
-                            {{ doc. tag }}
-                        </li>
-                    </ul>
                 </a>
+                {% assign tagString = doc.tag | default: doc.tags | default: '' %}
+                {% if tagString != '' %}
+                    {% assign tagArray = tagString | split: ' ' %}
+                    <div class="post-tags-container">
+                        <ul class="tag-list">
+                            {% for tag in tagArray %}
+                                {% if tag != '' %}
+                                <li class="post-tag">
+                                    <a href="/tag/#{{ tag }}">{{ tag }}</a>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
             </div>
         </li>
     {% endif %}
 {% endfor %}
     </ul>
     <h4>
-        <a href="/recent/">View all documents ({{ site.wiki | size | minus: 1 }} items)</a>
+        <a href="/recent/">View all posts</a>
     </h4>
 </div>
 {% include createLink.html %}

@@ -7,6 +7,12 @@
 
     for (var i = 0; i < tags.length; i++) {
         var item = tags[i];
+        
+        // 이미 링크가 있으면 처리하지 않음
+        if(item.querySelector('a') != null) {
+            continue;
+        }
+        
         var tagList = item.innerHTML.trim();
 
         if(/^\s*$/.test(tagList)) {

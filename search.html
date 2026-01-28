@@ -4,67 +4,8 @@ title: Search
 permalink: /search/
 public: true
 ---
- <div id="home-search">
-     <script>
-         (function() {
-             var cx = 'f1e8d65b01fea434d';
-             
-             // URL에서 검색어 추출
-             var urlParams = new URLSearchParams(window.location.search);
-             var searchString = urlParams.get('searchString');
-             
-             var gcse = document.createElement('script');
-             gcse.type = 'text/javascript';
-             gcse.async = true;
-             gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-             
-             // Google CSE가 로드된 후 쿼리 파라미터를 읽어서 검색 실행
-             gcse.onload = function() {
-                 if (searchString) {
-                     // Google CSE가 완전히 초기화될 때까지 대기
-                     var checkElement = setInterval(function() {
-                         if (window.google && window.google.search && window.google.search.cse) {
-                             clearInterval(checkElement);
-                             try {
-                                 // 검색 입력 필드 찾기
-                                 var searchInput = document.querySelector('input.gsc-input');
-                                 var searchButton = document.querySelector('input.gsc-search-button, button.gsc-search-button');
-                                 
-                                 if (searchInput && searchButton) {
-                                     searchInput.value = searchString;
-                                     // 검색 실행
-                                     var event = new Event('input', { bubbles: true });
-                                     searchInput.dispatchEvent(event);
-                                     searchButton.click();
-                                 } else {
-                                     // 대안: CSE element API 사용
-                                     var element = window.google.search.cse.element.getElement('searchresults-only0');
-                                     if (element) {
-                                         element.execute(searchString);
-                                     } else {
-                                         // 다른 방법 시도
-                                         var allElements = window.google.search.cse.element.getAllElements();
-                                         if (allElements && allElements.length > 0) {
-                                             allElements[0].execute(searchString);
-                                         }
-                                     }
-                                 }
-                             } catch(e) {
-                                 console.error('Google CSE search error:', e);
-                             }
-                         }
-                     }, 100);
-                     
-                     // 최대 5초 대기
-                     setTimeout(function() {
-                         clearInterval(checkElement);
-                     }, 5000);
-                 }
-             };
-             
-             var s = document.getElementsByTagName('script')[0];
-             s.parentNode.insertBefore(gcse, s);
-         })();
-     </script>
-     <gcse:search linkTarget="_parent" queryParameterName="searchString"></gcse:search>
- </div>
+{% include searchbox.html %}
+<div id="search-results">
+    <p>검색어를 입력하세요.</p>
+</div>
+<script src="/js/search.js"></script>

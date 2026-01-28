@@ -1,0 +1,177 @@
+[
+ {
+  "title": "Fuzzy theory",
+  "summary": "퍼지이론",
+  "url": "/wiki/ai/fuzzy-theory",
+  "updated": "2025-04-02 10:00:00 +0900",
+  "tag": [
+   "ai",
+   "fuzzy"
+  ],
+  "fileName": "ai/fuzzy-theory",
+  "type": "wiki"
+ },
+ {
+  "title": "아이리스 데이터셋으로 배우는 랜덤 포레스트 분류기",
+  "summary": "Scikit-Learn 활용한 랜덤 포레스트 분류기(ML)",
+  "url": "/wiki/ai/ml-random-forest",
+  "updated": "2025-05-08 11:16:00 +0900",
+  "tag": [
+   "ml",
+   "ai",
+   "scikit-learn",
+   "random-forest"
+  ],
+  "fileName": "ai/ml-random-forest",
+  "type": "wiki"
+ },
+ {
+  "title": "What is LangChain?",
+  "summary": "랭체인이란?",
+  "url": "/wiki/langchain/what-is-langchain",
+  "updated": "2025-05-25 08:40:00 +0900",
+  "tag": [
+   "ai",
+   "langchain"
+  ],
+  "fileName": "langchain/what-is-langchain",
+  "type": "wiki"
+ },
+ {
+  "title": "Cache stampede",
+  "summary": "",
+  "url": "/wiki/redis/cache-stampede",
+  "updated": "2025-03-13 16:12:00 +0900",
+  "tag": [
+   "redis",
+   "cache"
+  ],
+  "fileName": "redis/cache-stampede",
+  "type": "wiki"
+ },
+ {
+  "title": "Data flow in cache",
+  "summary": "",
+  "url": "/wiki/redis/data-flow-in-cache",
+  "updated": "2025-03-12 13:34:00 +0900",
+  "tag": [
+   "redis",
+   "cache"
+  ],
+  "fileName": "redis/data-flow-in-cache",
+  "type": "wiki"
+ },
+ {
+  "title": "개발자도 모르는 Redis 100% 활용 가이드(항해99 아티클)",
+  "summary": "Redis, 잘 쓰려면 이렇게 써야 합니다.",
+  "url": "/wiki/redis/redis-article-2025-02",
+  "updated": "2025-02-26 10:44:00 +0900",
+  "tag": [
+   "redis",
+   "article"
+  ],
+  "fileName": "redis/redis-article-2025-02",
+  "type": "wiki"
+ },
+ {
+  "title": "Redis as a session store",
+  "summary": "",
+  "url": "/wiki/redis/redis-as-a-session-store",
+  "updated": "2025-03-14 09:12:00 +0900",
+  "tag": [
+   "redis",
+   "cache",
+   "session"
+  ],
+  "fileName": "redis/redis-as-a-session-store",
+  "type": "wiki"
+ },
+ {
+  "title": "Using Redis as a cache",
+  "summary": "",
+  "url": "/wiki/redis/using-redis-as-a-cache",
+  "updated": "2025-03-04 08:59:00 +0900",
+  "tag": [
+   "redis",
+   "cache"
+  ],
+  "fileName": "redis/using-redis-as-a-cache",
+  "type": "wiki"
+ },
+ {
+  "title": "Using Redis as a Message Broker",
+  "summary": "레디스를 메시지 브로커로 사용하기",
+  "url": "/wiki/redis/using-redis-as-a-message-broker",
+  "updated": "2025-04-24 16:05:00 +0900",
+  "tag": [
+   "redis",
+   "message-broker",
+   "pub-sub"
+  ],
+  "fileName": "redis/using-redis-as-a-message-broker",
+  "type": "wiki"
+ },
+ {
+  "title": "120만 건의 TMDb 영화 데이터 변환 및 삽입, 6시간에서 9초로 최적화 여정",
+  "summary": "23,887초에서 9초로 대용량 데이터 삽입 최적화",
+  "url": "/wiki/spring/spring-batch-article-2025-03",
+  "updated": "2025-04-03 16:40:00 +0900",
+  "tag": [
+   "batch",
+   "spring",
+   "jpa",
+   "jdbc"
+  ],
+  "fileName": "spring/spring-batch-article-2025-03",
+  "type": "wiki"
+ },
+ {
+  "title": "CAP theory concepts and application scenarios",
+  "summary": "CAP 이론 개념 및 적용 시나리오",
+  "url": "/wiki/system-design/cap-theory",
+  "updated": "2025-02-28 11:38:00 +0900",
+  "tag": [
+   "cap",
+   "system-design"
+  ],
+  "fileName": "system-design/cap-theory",
+  "type": "wiki"
+ },
+ {
+  "title": "CDN(Content Delivery Network)",
+  "summary": "CDN 빠르고 안전한 컨텐츠 전송",
+  "url": "/wiki/system-design/cdn",
+  "updated": "2025-04-12 21:24:00 +0900",
+  "tag": [
+   "cdn",
+   "system-design"
+  ],
+  "fileName": "system-design/cdn",
+  "type": "wiki"
+ },
+ {
+  "title": "Load Balancer",
+  "summary": "로드밸런서",
+  "url": "/wiki/system-design/load-balancer",
+  "updated": "2025-03-10 10:16:00 +0900",
+  "tag": [
+   "load-balancer",
+   "system-design"
+  ],
+  "fileName": "system-design/load-balancer",
+  "type": "wiki"
+ },
+ {
+  "title": "Monolithic vs MicroService Architecture",
+  "summary": "모놀리스와 마이크로서비스 아키텍처",
+  "url": "/wiki/system-design/monolithic-vs-microservice",
+  "updated": "2025-03-19 15:24:00 +0900",
+  "tag": [
+   "monolithic",
+   "msa",
+   "system-design"
+  ],
+  "fileName": "system-design/monolithic-vs-microservice",
+  "type": "wiki"
+ }
+]

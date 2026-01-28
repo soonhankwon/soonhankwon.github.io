@@ -14,9 +14,26 @@
 }
 
 // 글의 해시태그
-.post-tag a {
-    color: #888888;
-    text-decoration: none;
+.post-tag {
+    a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: normal;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        display: inline;
+        
+        &:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+        
+        &::before {
+            content: "#";
+            margin-right: 2px;
+        }
+    }
 }
 
 // 글 이력 버튼 (created, updated)
@@ -28,7 +45,6 @@
 // 글의 부제목
 .title-summary {
     font-size: 1.6em;
-    font-style: italic;
     color: gray;
 }
 

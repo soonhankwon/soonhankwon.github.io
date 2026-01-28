@@ -1,3 +1,15 @@
-<div class="post-tag">
-    {{page.tags}}
-</div>
+{% assign tagString = page.tag | default: page.tags | default: '' %}
+{% if tagString != '' %}
+    {% assign tagArray = tagString | split: ' ' %}
+    <div class="post-tags-container">
+        <ul class="tag-list">
+            {% for tag in tagArray %}
+                {% if tag != '' %}
+                <li class="post-tag">
+                    <a href="/tag/#{{ tag }}">{{ tag }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

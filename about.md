@@ -23,30 +23,28 @@ latex: true
 
 ## Motto
 
-> The first principle is that you must not fool yourself and you are the easiest person to fool. – Richard P. Feynman
->
-> 첫 번째 원칙은 자신을 속이지 말아야 한다는 것입니다. 그리고 당신은 속이기 가장 쉬운 사람입니다. - 리처드 파인만
+* I believe in code that runs, in the real world.
 
 
 ## About Me
 
-* Backend Engineer 입니다.
-* Computer Science, Economics 를 전공했습니다.
-* 수학, 과학을 동경합니다.
-* 모르는 것이 많아 매일 공부합니다.
+* Product Engineer specializing in backend engineering and system architecture. 
+Computer Science and Economics major.
+Hands-on with machine learning, data analysis and data-driven growth.
 
 ## Life
 
-* 사랑하는 아내 그리고 반려견과 행복하게 살고 있습니다.
-* 스케이트보드, 스노우보드, HipHop 을 좋아합니다.
-* 항상 규칙적으로 생활하려 노력합니다.
-    * 잠은 매일 23시 ~ 24시에 잡니다.
-    * 늦어도 7시에는 일어납니다.
-    * 주말도 예외가 아닙니다.
+* I live happily with my beloved wife and our dog.
+I enjoy skateboarding, snowboarding, and hip-hop.
+I always try to live a disciplined and structured life.
+
+* I usually go to bed between 11 PM and midnight,
+and wake up by 7 AM at the latest.
+Weekends are no exception.
 
 ## Job Experience
 
-- 요즘피플 CTO - _2024-06-27 ~ 현재_
+- 요즘피플 Product Engineer & CTO - _2024-06-27 ~ 현재_
     - 자동차 드라이빙 앱테크 애플리케이션 "차덕" 개발
         - Spring, Java 백엔드 개발
         - 모빌리티 주행 및 위치데이터를 활용한 리워드 시스템 개발
@@ -58,5 +56,5 @@ latex: true
         - Redis를 활용한 대규모 트래픽 처리 멘토링
 
 - Coupang - _2019-09-01 ~ 2021-09-08_
-    - Camp Management L3
+    - Camp Management
         - Data Analysis, Outsourcing Management

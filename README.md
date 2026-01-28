@@ -60,9 +60,54 @@ $ npm install
 
 ## 실행하기
 
+### 방법 1: Docker 사용 (권장)
+
+Docker를 사용하면 루비 설치 없이도 바로 실행할 수 있습니다.
+
 ```bash
-$ jekyll serve
+# 데이터 생성 및 Docker로 실행
+$ ./start.sh docker
 ```
+
+또는 직접 실행:
+
+```bash
+$ ./generateData.js
+$ docker-compose up
+```
+
+브라우저에서 `http://localhost:4000`으로 접속하세요.
+
+### 방법 2: 로컬 Jekyll 사용
+
+로컬에 Jekyll이 설치되어 있다면:
+
+```bash
+# 데이터 생성 및 Jekyll 서버 실행 (watch 모드)
+$ ./start.sh watch
+```
+
+또는 다른 옵션들:
+
+```bash
+# incremental 모드로 실행 (변경사항만 재빌드)
+$ ./start.sh inc
+
+# 백그라운드로 실행 (로그는 .localhost.log에 저장)
+$ ./start.sh back
+
+# 백그라운드 서버 종료
+$ ./start.sh kill
+```
+
+### 방법 3: 기본 Jekyll 명령어
+
+```bash
+$ ./generateData.js  # 메타데이터 생성
+$ bundle exec jekyll serve
+```
+
+브라우저에서 `http://localhost:4000`으로 접속하세요.
 
 ## 글 작성하기
 

@@ -71,6 +71,7 @@ function main() {
     saveTagCount(tagMap);
     saveMetaDataFiles(pageMap);
     saveDocumentUrlList(pageMap);
+    saveSearchIndex(dataList);
 }
 
 function lexicalOrderingBy(property) {
@@ -197,6 +198,34 @@ function saveTagCount(tagMap) {
 }
 
 /**
+ * 검색 인덱스 파일을 생성합니다.
+ * 모든 문서의 제목, 요약, 태그 등을 포함합니다.
+ * 카테고리/인덱스 파일은 제외합니다.
+ */
+function saveSearchIndex(dataList) {
+    const searchIndex = dataList
+        .filter(data => {
+            // 카테고리나 인덱스 파일 제외
+            const fileName = data.fileName || '';
+            const isCategory = data.layout === 'category' || data.layout === 'wikiindex';
+            const isIndexFile = fileName === 'index' || fileName === 'root-index' || 
+                               fileName.endsWith('/index') || fileName.endsWith('/root-index');
+            return !isCategory && !isIndexFile;
+        })
+        .map(data => ({
+            title: data.title || '',
+            summary: data.summary || '',
+            url: data.url || '',
+            updated: data.updated || data.date || '',
+            tag: data.tag || [],
+            fileName: data.fileName || '',
+            type: data.type || ''
+        }));
+
+    saveToFile("./data/search-index.json", JSON.stringify(searchIndex, null, 1), PRINT);
+}
+
+/**
  * 주어진 문자열을 파일로 저장합니다.
  *
  * @param fileLocation 파일 이름을 포함한 저장할 경로
@@ -256,6 +285,12 @@ function parseInfo(file, info) {
     if (obj.tag) {
         obj.tag = obj.tag.split(/\s+/);
     }
+    
+    // layout 정보도 파싱
+    if (obj.layout) {
+        // layout은 그대로 유지
+    }
+    
     return obj;
 }
 
