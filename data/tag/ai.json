@@ -1,5 +1,6 @@
 [
  "ai",
  "ai/fuzzy-theory",
- "ai/ml-random-forest"
+ "ai/ml-random-forest",
+ "langchain/what-is-langchain"
 ]

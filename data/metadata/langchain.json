@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "LangChain",
+ "summary": "랭체인",
+ "parent": "index",
+ "url": "/wiki/langchain",
+ "updated": "2025-05-25 09:51:00 +0900",
+ "children": [
+  "langchain/what-is-langchain"
+ ]
+}
