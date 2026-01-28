@@ -33,6 +33,9 @@ regenerate: true
 * [[/ai/fuzzy-theory]]
 * [[/ai/ml-random-forest]]
 
+## LangChain
+* [[/langchain/what-is-langchain]]
+
 ---
 <div>
     <ul>
